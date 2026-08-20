@@ -49,13 +49,9 @@ const { t } = useI18n()
       :eyebrow="t('home.who.eyebrow')"
       :title="t('home.who.h2')"
       :body="t('home.who.body')"
-      :tag="t('nav.about')"
+      :tag="t('home.who.tag')"
       position="center 22%"
-    >
-      <template #actions>
-        <AppLink :to="{ name: 'about' }">{{ t('btn.readStory') }}</AppLink>
-      </template>
-    </EditorialTwoUp>
+    />
 
     <!-- 4 · Category grid (ALO's Trending Now four-up) -->
     <CardGrid4 :items="categories" :title="t('home.products.h2')">
@@ -81,7 +77,9 @@ const { t } = useI18n()
     </HeroFull>
 
     <!-- 6 · Scenarios on the tinted band (ALO's Shop By Activity) -->
-    <ScenarioRow :title="t('products.scenariosH2')" :lead="t('products.heroLead')" />
+    <!-- The lead that used to sit here is the products page's hero lead;
+         it reads once, on that page. -->
+    <ScenarioRow :title="t('products.scenariosH2')" />
 
     <!-- 7 · Two editorial blocks (ALO's 2-up editorial) -->
     <EditorialTwoUp

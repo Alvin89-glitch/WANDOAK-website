@@ -1079,16 +1079,16 @@
   },
   "cat-outer": {
     "id": "cat-outer",
-    "src": "kna_p11_6.jpg",
-    "source": "03-图片素材/可用大图/kna_p11_6.jpg",
+    "src": "W2306738.png",
+    "source": "03-图片素材/产品照片/W2306738.png",
     "native": {
-      "w": 800,
-      "h": 749
+      "w": 848,
+      "h": 1109
     },
     "ratio": 0.7646341463414634,
     "alt": {
-      "en": "Quarter-zip technical outerwear, collar and seam detail",
-      "zh": "半拉链功能外套的领口与拼缝细节"
+      "en": "A gull-blue stand-collar training jacket",
+      "zh": "鸥蓝色立领运动外套"
     },
     "widths": [
       400,
@@ -1139,7 +1139,7 @@
         }
       ]
     },
-    "lqip": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAADQAgCdASoUABoAPu1wsVKppiSiqAgBMB2JaQAAPaOgAP7vfAAh2+ZZEyOyBkAAAAA="
+    "lqip": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAADQBACdASoUABoAPu1mq0+ppSOiMBgIATAdiWMAuwAQrr2OXb7bdTg8zrtnLhsEAAD+838PZSSdbqPOaMkKEfPGxGCmCC2GDd+nCaJwjAJygue73t990myBiXoS37PrF7wSbNvAWMZmSV5OuMBSyF3tY+L+VDwVf/fv7phmLPwkubLHg+bYg4IAAAA="
   },
   "scen-yoga": {
     "id": "scen-yoga",
@@ -1474,57 +1474,6 @@
     },
     "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAACwAwCdASoUAAcAPu1iqU2ppaOiMAgBMB2JZwDDNBVY7XIinOFJuAD+g6C5z0U79z6q32cJEE3KICxQASs1PPBSotngXp7KCtY5ZUaYj/XmTtoNW9SshtoFAAA="
   },
-  "tech-1": {
-    "id": "tech-1",
-    "src": "wandoak_p14_2.jpg",
-    "source": "03-图片素材/可用大图/wandoak_p14_2.jpg",
-    "native": {
-      "w": 1260,
-      "h": 1890
-    },
-    "ratio": 0.6666666666666666,
-    "alt": {
-      "en": "Five-way support construction",
-      "zh": "五向支撑结构"
-    },
-    "widths": [
-      400,
-      700
-    ],
-    "sets": {
-      "avif": [
-        {
-          "w": 400,
-          "url": "/img/tech-1-400.avif"
-        },
-        {
-          "w": 700,
-          "url": "/img/tech-1-700.avif"
-        }
-      ],
-      "webp": [
-        {
-          "w": 400,
-          "url": "/img/tech-1-400.webp"
-        },
-        {
-          "w": 700,
-          "url": "/img/tech-1-700.webp"
-        }
-      ],
-      "jpg": [
-        {
-          "w": 400,
-          "url": "/img/tech-1-400.jpg"
-        },
-        {
-          "w": 700,
-          "url": "/img/tech-1-700.jpg"
-        }
-      ]
-    },
-    "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAABQBACdASoUAB4APu1mrE8ppaQiMBgIATAdiWcAzuwQP7GG0k9NSoDGKTYAAP7nPAa4ls4maPFjxRZ9CwAtRtIqNs5G00XtoeeXike64hBfnUNlQCKvze3JDkRC/bqmhZHAnE2OeAA="
-  },
   "tech-2": {
     "id": "tech-2",
     "src": "wandoak_p11_0.jpg",
@@ -1626,108 +1575,6 @@
       ]
     },
     "lqip": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAACQBACdASoUAB4APu1mqk8ppaOiKA1RMB2JZQDL4DpNXoVv8CuDluDj2/PYUsAA/lLWqJZquCJoB+c+3nAll4MeFzsXNcDHYmI7SdyQUd+13vojEUYWxJ8V8w9cdGAs0L097wwOh/SWNlbKtmYT9WIAAAA="
-  },
-  "tech-4": {
-    "id": "tech-4",
-    "src": "kna_p11_6.jpg",
-    "source": "03-图片素材/可用大图/kna_p11_6.jpg",
-    "native": {
-      "w": 800,
-      "h": 749
-    },
-    "ratio": 0.6666666666666666,
-    "alt": {
-      "en": "Graphene-treated technical fabric",
-      "zh": "石墨烯功能面料"
-    },
-    "widths": [
-      400,
-      700
-    ],
-    "sets": {
-      "avif": [
-        {
-          "w": 400,
-          "url": "/img/tech-4-400.avif"
-        },
-        {
-          "w": 700,
-          "url": "/img/tech-4-700.avif"
-        }
-      ],
-      "webp": [
-        {
-          "w": 400,
-          "url": "/img/tech-4-400.webp"
-        },
-        {
-          "w": 700,
-          "url": "/img/tech-4-700.webp"
-        }
-      ],
-      "jpg": [
-        {
-          "w": 400,
-          "url": "/img/tech-4-400.jpg"
-        },
-        {
-          "w": 700,
-          "url": "/img/tech-4-700.jpg"
-        }
-      ]
-    },
-    "lqip": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAADQAgCdASoUAB4APu1wsVKtJiSiqAgBoB2JaQAAPaOgAP7voHOtID2QMgAAAA=="
-  },
-  "tech-5": {
-    "id": "tech-5",
-    "src": "wandoak_p12_2.jpg",
-    "source": "03-图片素材/可用大图/wandoak_p12_2.jpg",
-    "native": {
-      "w": 1575,
-      "h": 2363
-    },
-    "ratio": 0.6666666666666666,
-    "alt": {
-      "en": "Stretch and recovery in compression leggings",
-      "zh": "压缩裤的弹力与回弹"
-    },
-    "widths": [
-      400,
-      700
-    ],
-    "sets": {
-      "avif": [
-        {
-          "w": 400,
-          "url": "/img/tech-5-400.avif"
-        },
-        {
-          "w": 700,
-          "url": "/img/tech-5-700.avif"
-        }
-      ],
-      "webp": [
-        {
-          "w": 400,
-          "url": "/img/tech-5-400.webp"
-        },
-        {
-          "w": 700,
-          "url": "/img/tech-5-700.webp"
-        }
-      ],
-      "jpg": [
-        {
-          "w": 400,
-          "url": "/img/tech-5-400.jpg"
-        },
-        {
-          "w": 700,
-          "url": "/img/tech-5-700.jpg"
-        }
-      ]
-    },
-    "lqip": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAABwBACdASoUAB4APuFUpE2opKOjN/qoARAcCWcAy6QiDpMTprGvqylQkVUUAAD+6ntlghO293DSmnu2ZZXu3ihdOA6fBzkydNhRGahk/wqpl0O5crqsh9/xE9HnUhSEabsH3dSrrHHmYdfh57w/nA0qAGAAAA=="
   },
   "tech-6": {
     "id": "tech-6",
@@ -1831,82 +1678,95 @@
     },
     "lqip": "data:image/webp;base64,UklGRv4AAABXRUJQVlA4IPIAAACwBQCdASoUAB4APu1gq1AppKOisBgIATAdiWgAvkmMOmSklW6aIi1tCPRY8NN1Eyf2zj9utgAA/ty+2CC48jgFG1v18J/w13jRjMuhfrG4AbR/EeLGIdpAvOSfHEp4Z1h6q5b46E9833Vgmn76XC8JmQp42tHd3qTk6z7EaY8wABtfBKGHjkJPcgxDjkxQ+OJOXsS4FXELomJL9MaUInwKW/2CK/cn3QK50OEeEstX7UlMhGF0j+jLiFDuZ6GBDlPGpf0UAlAVom6jp9VPk363VqLM+667csg7iBF6hoANWruL8XzPmWDa05UzTitkFAAAAA=="
   },
-  "floor-cutting": {
-    "id": "floor-cutting",
-    "src": "kna_p15_1.jpg",
-    "source": "03-图片素材/可用大图/kna_p15_1.jpg",
-    "native": {
-      "w": 951,
-      "h": 645
-    },
-    "ratio": 1.1111111111111112,
-    "alt": {
-      "en": "Computerised cutting station",
-      "zh": "电脑裁床工位"
-    },
-    "widths": [
-      400,
-      700,
-      951
-    ],
-    "sets": {
-      "avif": [
-        {
-          "w": 400,
-          "url": "/img/floor-cutting-400.avif"
-        },
-        {
-          "w": 700,
-          "url": "/img/floor-cutting-700.avif"
-        },
-        {
-          "w": 951,
-          "url": "/img/floor-cutting-951.avif"
-        }
-      ],
-      "webp": [
-        {
-          "w": 400,
-          "url": "/img/floor-cutting-400.webp"
-        },
-        {
-          "w": 700,
-          "url": "/img/floor-cutting-700.webp"
-        },
-        {
-          "w": 951,
-          "url": "/img/floor-cutting-951.webp"
-        }
-      ],
-      "jpg": [
-        {
-          "w": 400,
-          "url": "/img/floor-cutting-400.jpg"
-        },
-        {
-          "w": 700,
-          "url": "/img/floor-cutting-700.jpg"
-        },
-        {
-          "w": 951,
-          "url": "/img/floor-cutting-951.jpg"
-        }
-      ]
-    },
-    "lqip": "data:image/webp;base64,UklGRrwAAABXRUJQVlA4ILAAAADwBACdASoUABIAPu1ur1IppiQiqAgBMB2JZQDM0A9AIo2WcEutemOTW6YcB0OAtwAA4gKcmdQ1VF/HwpMCeNSG3w5CdnVIwxALFo7avmSiW84S9ChFZZevkyWwYNcBQLtAZM2NfsOMe2IhqaX85pluoylZBmDqKYlSllEfq9loF8l9iYzQ8vmL65S8qRQ2DAWsI07q/jmS2bvQezKl4O0MgTWvJ/ddUF5PYU4Ad5AAAA=="
-  },
-  "floor-line": {
-    "id": "floor-line",
+  "hero-factory": {
+    "id": "hero-factory",
     "src": "kna_p15_3.jpg",
     "source": "03-图片素材/可用大图/kna_p15_3.jpg",
     "native": {
       "w": 1038,
       "h": 649
     },
+    "ratio": 2.915451895043732,
+    "alt": {
+      "en": "The sewing floor with its overhead hanging system",
+      "zh": "配备吊挂系统的缝制车间"
+    },
+    "widths": [
+      400,
+      700,
+      1000,
+      1038
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/hero-factory-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/hero-factory-700.avif"
+        },
+        {
+          "w": 1000,
+          "url": "/img/hero-factory-1000.avif"
+        },
+        {
+          "w": 1038,
+          "url": "/img/hero-factory-1038.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/hero-factory-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/hero-factory-700.webp"
+        },
+        {
+          "w": 1000,
+          "url": "/img/hero-factory-1000.webp"
+        },
+        {
+          "w": 1038,
+          "url": "/img/hero-factory-1038.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/hero-factory-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/hero-factory-700.jpg"
+        },
+        {
+          "w": 1000,
+          "url": "/img/hero-factory-1000.jpg"
+        },
+        {
+          "w": 1038,
+          "url": "/img/hero-factory-1038.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAADwAwCdASoUAAcAPu1iqk2ppaQiMAgBMB2JZQDDNCPQfNYi3PlbsWWAAOJ5KkBFRct80yjrPWgQItdVO5h+spgQG7clQJAUIzpmKx8gFwXyZnLhbozwAXUgX6a16V9XBOoAAA=="
+  },
+  "cap-cutsew": {
+    "id": "cap-cutsew",
+    "src": "kna_p14_4.jpg",
+    "source": "03-图片素材/可用大图/kna_p14_4.jpg",
+    "native": {
+      "w": 1381,
+      "h": 841
+    },
     "ratio": 1.1111111111111112,
     "alt": {
-      "en": "Sewing line with hanging system",
-      "zh": "吊挂缝制产线"
+      "en": "Operators on the cut-and-sew line",
+      "zh": "裁剪缝制产线上的工人"
     },
     "widths": [
       400,
@@ -1917,47 +1777,2633 @@
       "avif": [
         {
           "w": 400,
-          "url": "/img/floor-line-400.avif"
+          "url": "/img/cap-cutsew-400.avif"
         },
         {
           "w": 700,
-          "url": "/img/floor-line-700.avif"
+          "url": "/img/cap-cutsew-700.avif"
         },
         {
           "w": 1000,
-          "url": "/img/floor-line-1000.avif"
+          "url": "/img/cap-cutsew-1000.avif"
         }
       ],
       "webp": [
         {
           "w": 400,
-          "url": "/img/floor-line-400.webp"
+          "url": "/img/cap-cutsew-400.webp"
         },
         {
           "w": 700,
-          "url": "/img/floor-line-700.webp"
+          "url": "/img/cap-cutsew-700.webp"
         },
         {
           "w": 1000,
-          "url": "/img/floor-line-1000.webp"
+          "url": "/img/cap-cutsew-1000.webp"
         }
       ],
       "jpg": [
         {
           "w": 400,
-          "url": "/img/floor-line-400.jpg"
+          "url": "/img/cap-cutsew-400.jpg"
         },
         {
           "w": 700,
-          "url": "/img/floor-line-700.jpg"
+          "url": "/img/cap-cutsew-700.jpg"
         },
         {
           "w": 1000,
-          "url": "/img/floor-line-1000.jpg"
+          "url": "/img/cap-cutsew-1000.jpg"
         }
       ]
     },
-    "lqip": "data:image/webp;base64,UklGRrYAAABXRUJQVlA4IKoAAAAQBQCdASoUABIAPu1urlIppiQiqAgBMB2JYgC7IQdBeMfL01a0IDIodASRY4f6nNgAAM4woAqdcaI/1KlficTfvibPKyntgT0rIRpyPzFc2Vuulq9XjYqmJfpJ94QupcCk7fCJbi33W/OWM4GBivprbE+T8mnKRkOG+y3UDJpYHR56bhc0uz17vZhVzbu25bnEFjkLnK3FDSb1QDk7AHKcoxoXBfKTBEAAAA=="
+    "lqip": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAADwBACdASoUABIAPu1ur1IppiQiqAgBMB2JZwDOdA5VkYkn/M62btm65bGkvY/FxYAA9FrVRHSsOfLsvD+zWmbw30cLwDKpm3b50q7j4o17bYYg8RAaHhLIDMfMSIrWhzv8vORw/LnVYeo6OJrViLEMJC86PIHRem9DERGoj9Pp7hdvmf0+YYuZmeoyOSv/FPU0lamYItO/sAAA"
+  },
+  "cap-seamless": {
+    "id": "cap-seamless",
+    "src": "kna_p15_0.jpg",
+    "source": "03-图片素材/可用大图/kna_p15_0.jpg",
+    "native": {
+      "w": 957,
+      "h": 649
+    },
+    "ratio": 1.1111111111111112,
+    "alt": {
+      "en": "Seamless circular knitting machines",
+      "zh": "无缝针织圆机"
+    },
+    "widths": [
+      400,
+      700,
+      957
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/cap-seamless-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/cap-seamless-700.avif"
+        },
+        {
+          "w": 957,
+          "url": "/img/cap-seamless-957.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/cap-seamless-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/cap-seamless-700.webp"
+        },
+        {
+          "w": 957,
+          "url": "/img/cap-seamless-957.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/cap-seamless-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/cap-seamless-700.jpg"
+        },
+        {
+          "w": 957,
+          "url": "/img/cap-seamless-957.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAABQBACdASoUABIAPu1ur1IppiQiqAgBMB2JZwDKtA6w0xWR+8I6pF0MIf8AAOFYuJ/xOt3/rPNg6SVJ8brtLALErkqBIcuYBHOcSOzu8bpxFTtcIA1cJPVYJf4UJ1M2bogpTAUCQl/hpssSb0UtlVMitTaO/qTsXjdDb0p/T+5+JLijs2HYQO6PH89IhwnMyEUinIgA"
+  },
+  "fac-team": {
+    "id": "fac-team",
+    "src": "kna_p05_7.jpg",
+    "source": "03-图片素材/可用大图/kna_p05_7.jpg",
+    "native": {
+      "w": 1406,
+      "h": 1133
+    },
+    "ratio": 1.1111111111111112,
+    "alt": {
+      "en": "The development team reviewing patterns and swatches",
+      "zh": "开发团队评审版型与色卡"
+    },
+    "widths": [
+      400,
+      700,
+      1000,
+      1200
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/fac-team-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/fac-team-700.avif"
+        },
+        {
+          "w": 1000,
+          "url": "/img/fac-team-1000.avif"
+        },
+        {
+          "w": 1200,
+          "url": "/img/fac-team-1200.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/fac-team-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/fac-team-700.webp"
+        },
+        {
+          "w": 1000,
+          "url": "/img/fac-team-1000.webp"
+        },
+        {
+          "w": 1200,
+          "url": "/img/fac-team-1200.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/fac-team-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/fac-team-700.jpg"
+        },
+        {
+          "w": 1000,
+          "url": "/img/fac-team-1000.jpg"
+        },
+        {
+          "w": 1200,
+          "url": "/img/fac-team-1200.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRtwAAABXRUJQVlA4INAAAAAwBQCdASoUABIAPu1ur1IppiQiqAgBMB2JQBdmZfy3YTZfnrvJ2miEOo/6QH/JSIYcAAD+4UYklgiI7x4EdxhJbwaWTTPly1/nQwIbGWoFFhyQTNgvSyR7vNFqRUpTexp3Ii8POg0ecC/e6Yu6ud8GAhDbsKK6P6N7Pyoo/3uNNFxf91h2RlWVk60V0QlMfgb+pfqOuHoB1obOG8w5t8SEiEICT09A/tnBj7OeB41gx8NFldDNXHxEtX0qu4NN92C7K5gzxi0fXLp5GsMAsAAA"
+  },
+  "fac-cut": {
+    "id": "fac-cut",
+    "src": "kna_p15_1.jpg",
+    "source": "03-图片素材/可用大图/kna_p15_1.jpg",
+    "native": {
+      "w": 951,
+      "h": 645
+    },
+    "ratio": 1.3340425531914895,
+    "alt": {
+      "en": "Computerised cutting station",
+      "zh": "电脑裁床工位"
+    },
+    "widths": [
+      400,
+      700,
+      800
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/fac-cut-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/fac-cut-700.avif"
+        },
+        {
+          "w": 800,
+          "url": "/img/fac-cut-800.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/fac-cut-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/fac-cut-700.webp"
+        },
+        {
+          "w": 800,
+          "url": "/img/fac-cut-800.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/fac-cut-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/fac-cut-700.jpg"
+        },
+        {
+          "w": 800,
+          "url": "/img/fac-cut-800.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAADwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JQBlAMZURUAvE6xw54oVgAP61IMzQS4zCqpuOMWo31fnduHFuMfoia8r0hnfp3Qire5H2lvz/aL85Gb1Yd2HXxu05EqgQNtCVQk64dvRy/gzeJFVRI8HKp60DfBBHwU7Urus23M2BJqdADAfn5pRhnn+aGxAAAAA="
+  },
+  "fac-setting": {
+    "id": "fac-setting",
+    "src": "kna_p15_2.jpg",
+    "source": "03-图片素材/可用大图/kna_p15_2.jpg",
+    "native": {
+      "w": 1019,
+      "h": 649
+    },
+    "ratio": 1.3340425531914895,
+    "alt": {
+      "en": "CNC heat-setting machine on the finishing line",
+      "zh": "后整理线上的数控定型机"
+    },
+    "widths": [
+      400,
+      700,
+      800
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/fac-setting-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/fac-setting-700.avif"
+        },
+        {
+          "w": 800,
+          "url": "/img/fac-setting-800.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/fac-setting-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/fac-setting-700.webp"
+        },
+        {
+          "w": 800,
+          "url": "/img/fac-setting-800.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/fac-setting-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/fac-setting-700.jpg"
+        },
+        {
+          "w": 800,
+          "url": "/img/fac-setting-800.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAADwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZQCdEf/gKjvW+mQRcYrIAP7fwUS5eSHOV8fdwlVGhb329cB2pvDbUu9ZB7gUQU8UNKi/41HJ5JcT4mt4jAQMQ5tKV6mwA3ICvtiYkCbx/rUAAAA="
+  },
+  "fac-warehouse": {
+    "id": "fac-warehouse",
+    "src": "kna_p17_4.jpg",
+    "source": "03-图片素材/可用大图/kna_p17_4.jpg",
+    "native": {
+      "w": 1373,
+      "h": 925
+    },
+    "ratio": 1.3340425531914895,
+    "alt": {
+      "en": "Sorting and packing in the warehouse",
+      "zh": "仓库中的分拣与包装"
+    },
+    "widths": [
+      400,
+      700,
+      800
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/fac-warehouse-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/fac-warehouse-700.avif"
+        },
+        {
+          "w": 800,
+          "url": "/img/fac-warehouse-800.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/fac-warehouse-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/fac-warehouse-700.webp"
+        },
+        {
+          "w": 800,
+          "url": "/img/fac-warehouse-800.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/fac-warehouse-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/fac-warehouse-700.jpg"
+        },
+        {
+          "w": 800,
+          "url": "/img/fac-warehouse-800.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRrQAAABXRUJQVlA4IKgAAABwBACdASoUAA8APu1iqU2ppaOiMAgBMB2JZACdMoAlvRgll9t5OlA/Uav37AD+W+gY6f5835gDMFlmshu4tKriKWz4dpNe1FEi7mlTslTQd8Rf5NdjOY2ksmoa5eapTOkb2WOfdoXMANR2T2CmnoRixp6V5V1linRSro4TycezOEiYq7Djbl1GN0SpVL521widHfzasHOHVx6rZYnUjI4hfx0kwlTAAAA="
+  },
+  "fac-finishing": {
+    "id": "fac-finishing",
+    "src": "kna_p18_1.jpg",
+    "source": "03-图片素材/可用大图/kna_p18_1.jpg",
+    "native": {
+      "w": 1041,
+      "h": 1173
+    },
+    "ratio": 1.3340425531914895,
+    "alt": {
+      "en": "The pressing and final-inspection room",
+      "zh": "整烫与终检间"
+    },
+    "widths": [
+      400,
+      700,
+      800
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/fac-finishing-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/fac-finishing-700.avif"
+        },
+        {
+          "w": 800,
+          "url": "/img/fac-finishing-800.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/fac-finishing-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/fac-finishing-700.webp"
+        },
+        {
+          "w": 800,
+          "url": "/img/fac-finishing-800.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/fac-finishing-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/fac-finishing-700.jpg"
+        },
+        {
+          "w": 800,
+          "url": "/img/fac-finishing-800.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAADwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZQAAP6Tz/uLd8YhtwmQAAP6zRGQJCAoRsrW0Fh+XIOysGJeCk/sMZ6cmUV1z/XNgy94UrIS1XNICG3iWWM7KCtMolv7v2rWvde3+MrdJPhPJPNGKAAAA"
+  },
+  "hero-products": {
+    "id": "hero-products",
+    "src": "wandoak_p07_0.jpg",
+    "source": "03-图片素材/可用大图/wandoak_p07_0.jpg",
+    "native": {
+      "w": 4480,
+      "h": 6720
+    },
+    "ratio": 2.915451895043732,
+    "alt": {
+      "en": "Two women in WANDOAK bras and leggings by the lake",
+      "zh": "湖畔两位身着 WANDOAK 内衣与紧身裤的女性"
+    },
+    "widths": [
+      400,
+      700,
+      1000,
+      1400
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/hero-products-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/hero-products-700.avif"
+        },
+        {
+          "w": 1000,
+          "url": "/img/hero-products-1000.avif"
+        },
+        {
+          "w": 1400,
+          "url": "/img/hero-products-1400.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/hero-products-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/hero-products-700.webp"
+        },
+        {
+          "w": 1000,
+          "url": "/img/hero-products-1000.webp"
+        },
+        {
+          "w": 1400,
+          "url": "/img/hero-products-1400.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/hero-products-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/hero-products-700.jpg"
+        },
+        {
+          "w": 1000,
+          "url": "/img/hero-products-1000.jpg"
+        },
+        {
+          "w": 1400,
+          "url": "/img/hero-products-1400.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADQAwCdASoUAAcAPu1mqk2ppaQiMAgBMB2JZgCdACG8AT8HHOXdQwAA/d1JKgPS4hn/btD6jn2s++OjiBN4wWl4JDd6oUDbm9MhdkjLKN/gfmFkNpPO/+D9X1icwAAA"
+  },
+  "pl-black": {
+    "id": "pl-black",
+    "src": "wandoak_p15_3.jpg",
+    "source": "03-图片素材/可用大图/wandoak_p15_3.jpg",
+    "native": {
+      "w": 750,
+      "h": 1125
+    },
+    "ratio": 0.6666666666666666,
+    "alt": {
+      "en": "Black bra and full-length leggings",
+      "zh": "黑色运动内衣与全长紧身裤"
+    },
+    "widths": [
+      400,
+      700,
+      750
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/pl-black-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/pl-black-700.avif"
+        },
+        {
+          "w": 750,
+          "url": "/img/pl-black-750.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/pl-black-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/pl-black-700.webp"
+        },
+        {
+          "w": 750,
+          "url": "/img/pl-black-750.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/pl-black-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/pl-black-700.jpg"
+        },
+        {
+          "w": 750,
+          "url": "/img/pl-black-750.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAABwBACdASoUAB4APu1qsVAppiUiqAqpMB2JaQAD5PkLUq4qmivtolrXf0sy8AD+84FgurFYhtHjShRiFFkSxVgogGEshg8kJp3cWI9FaQR2u+o72AE+TTnswSLbXwBHcpHO7Eq5z+Xyxnjrfjxnn7tGd64DoKupPXZNUH4UTqp2CxwAAAA="
+  },
+  "pl-sage": {
+    "id": "pl-sage",
+    "src": "wandoak_p15_2.jpg",
+    "source": "03-图片素材/可用大图/wandoak_p15_2.jpg",
+    "native": {
+      "w": 750,
+      "h": 1125
+    },
+    "ratio": 0.6666666666666666,
+    "alt": {
+      "en": "Sage bra and olive leggings set",
+      "zh": "鼠尾草绿内衣与橄榄绿紧身裤套装"
+    },
+    "widths": [
+      400,
+      700,
+      750
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/pl-sage-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/pl-sage-700.avif"
+        },
+        {
+          "w": 750,
+          "url": "/img/pl-sage-750.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/pl-sage-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/pl-sage-700.webp"
+        },
+        {
+          "w": 750,
+          "url": "/img/pl-sage-750.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/pl-sage-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/pl-sage-700.jpg"
+        },
+        {
+          "w": 750,
+          "url": "/img/pl-sage-750.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAAAQBACdASoUAB4APu1qqk8ppiOiMBgIATAdiWcAzYQQ76RkuP0cBRtiwAD+82v8Y5ndRA3zMrJQUeEduxzSAoxsvYH0I2yUvvcvlD1lawBg5/AYEVBvJuU3NuimqsnS94GBsiCKli5OBMYi2RqTSiDH4wAAAA=="
+  },
+  "pl-tee": {
+    "id": "pl-tee",
+    "src": "wandoak_p15_0.jpg",
+    "source": "03-图片素材/可用大图/wandoak_p15_0.jpg",
+    "native": {
+      "w": 750,
+      "h": 1125
+    },
+    "ratio": 0.6666666666666666,
+    "alt": {
+      "en": "Cream tee with pale blue leggings",
+      "zh": "米白 T 恤与浅蓝紧身裤"
+    },
+    "widths": [
+      400,
+      700,
+      750
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/pl-tee-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/pl-tee-700.avif"
+        },
+        {
+          "w": 750,
+          "url": "/img/pl-tee-750.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/pl-tee-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/pl-tee-700.webp"
+        },
+        {
+          "w": 750,
+          "url": "/img/pl-tee-750.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/pl-tee-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/pl-tee-700.jpg"
+        },
+        {
+          "w": 750,
+          "url": "/img/pl-tee-750.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAABQBACdASoUAB4APu1kqE2ppaOiMAgBMB2JZwAAW4VzBhT7WMygnRbgB9RgAP7zdQsfgJGpMiV7B+ZljsLIAkfHkp66EWIfzwJ7lbin85n9sCOGXgGI3dnUpEnfbhtlb56t63ggqpd68qZt67V6w4AA"
+  },
+  "pl-crop": {
+    "id": "pl-crop",
+    "src": "wandoak_p15_1.jpg",
+    "source": "03-图片素材/可用大图/wandoak_p15_1.jpg",
+    "native": {
+      "w": 750,
+      "h": 1125
+    },
+    "ratio": 0.6666666666666666,
+    "alt": {
+      "en": "Black crop tee with taupe high-rise leggings",
+      "zh": "黑色短款 T 恤与灰褐高腰紧身裤"
+    },
+    "widths": [
+      400,
+      700,
+      750
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/pl-crop-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/pl-crop-700.avif"
+        },
+        {
+          "w": 750,
+          "url": "/img/pl-crop-750.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/pl-crop-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/pl-crop-700.webp"
+        },
+        {
+          "w": 750,
+          "url": "/img/pl-crop-750.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/pl-crop-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/pl-crop-700.jpg"
+        },
+        {
+          "w": 750,
+          "url": "/img/pl-crop-750.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAAAwBACdASoUAB4APu1kqk2ppaQiMAgBMB2JaQAAW+qyxAD0LEVW+gBsoAAA/vN0hziv1Te2+SY/mtKqkcrrEHJQs6kNwOI8Yo2FLyFu0MYTPCtVzw4dFuVi88UqugP/keEKj+ummUBsBxW/tbuBUMwAAAA="
+  },
+  "pl-short": {
+    "id": "pl-short",
+    "src": "wandoak_p10_0.jpg",
+    "source": "03-图片素材/可用大图/wandoak_p10_0.jpg",
+    "native": {
+      "w": 1333,
+      "h": 2000
+    },
+    "ratio": 0.6666666666666666,
+    "alt": {
+      "en": "White bra with mint running shorts",
+      "zh": "白色运动内衣与薄荷绿跑步短裤"
+    },
+    "widths": [
+      400,
+      700,
+      800
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/pl-short-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/pl-short-700.avif"
+        },
+        {
+          "w": 800,
+          "url": "/img/pl-short-800.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/pl-short-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/pl-short-700.webp"
+        },
+        {
+          "w": 800,
+          "url": "/img/pl-short-800.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/pl-short-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/pl-short-700.jpg"
+        },
+        {
+          "w": 800,
+          "url": "/img/pl-short-800.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAAAwBACdASoUAB4APu1qqk8ppiOiMBgIATAdiWUAxNgQqGHKkfMOTsQaL2AA/vN1JFRzP9MUjq/majB3hrqAdE3RTgCgS7nRRS4rdAy+KbuK6gWfouNf7FNFIlR9T6Q+5epVXBGjCKqsFh/KEQWwQxq9HAAAAA=="
+  },
+  "cat-hero-outer": {
+    "id": "cat-hero-outer",
+    "src": "kna_p11_6.jpg",
+    "source": "03-图片素材/可用大图/kna_p11_6.jpg",
+    "native": {
+      "w": 800,
+      "h": 749
+    },
+    "ratio": 2.915451895043732,
+    "alt": {
+      "en": "Quarter-zip outerwear, collar and seam detail",
+      "zh": "半拉链外套的领口与拼缝细节"
+    },
+    "widths": [
+      400,
+      700,
+      800
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/cat-hero-outer-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/cat-hero-outer-700.avif"
+        },
+        {
+          "w": 800,
+          "url": "/img/cat-hero-outer-800.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/cat-hero-outer-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/cat-hero-outer-700.webp"
+        },
+        {
+          "w": 800,
+          "url": "/img/cat-hero-outer-800.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/cat-hero-outer-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/cat-hero-outer-700.jpg"
+        },
+        {
+          "w": 800,
+          "url": "/img/cat-hero-outer-800.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAwAwCdASoUAAcAPu1mqk2ppaQiMAgBMB2JZwAAUclu5+QAAP7SmPDsS734jJZ5gtTByPY7j0z65K28q+Uj+Z61MAA="
+  },
+  "ed-handfeel": {
+    "id": "ed-handfeel",
+    "src": "wandoak_p15_4.jpg",
+    "source": "03-图片素材/可用大图/wandoak_p15_4.jpg",
+    "native": {
+      "w": 2000,
+      "h": 1333
+    },
+    "ratio": 1.1111111111111112,
+    "alt": {
+      "en": "Close detail of a ribbed technical knit",
+      "zh": "罗纹功能针织面料细节"
+    },
+    "widths": [
+      400,
+      700,
+      1000,
+      1200
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/ed-handfeel-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/ed-handfeel-700.avif"
+        },
+        {
+          "w": 1000,
+          "url": "/img/ed-handfeel-1000.avif"
+        },
+        {
+          "w": 1200,
+          "url": "/img/ed-handfeel-1200.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/ed-handfeel-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/ed-handfeel-700.webp"
+        },
+        {
+          "w": 1000,
+          "url": "/img/ed-handfeel-1000.webp"
+        },
+        {
+          "w": 1200,
+          "url": "/img/ed-handfeel-1200.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/ed-handfeel-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/ed-handfeel-700.jpg"
+        },
+        {
+          "w": 1000,
+          "url": "/img/ed-handfeel-1000.jpg"
+        },
+        {
+          "w": 1200,
+          "url": "/img/ed-handfeel-1200.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAABQBACdASoUABIAPu1gqk2ppSQiMBgMATAdiWkAyUwOyMNbdO3eFpt0jrmoAPxw6ZP5BX7zoX5GUlwcIWCCG1SULNsAMj8lKkYnvdt01JJHopOAAAA="
+  },
+  "ed-compression": {
+    "id": "ed-compression",
+    "src": "wandoak_p07_1.jpg",
+    "source": "03-图片素材/可用大图/wandoak_p07_1.jpg",
+    "native": {
+      "w": 4380,
+      "h": 6570
+    },
+    "ratio": 1.1111111111111112,
+    "alt": {
+      "en": "Back view showing bra and legging seam construction",
+      "zh": "内衣与紧身裤拼缝结构的背面"
+    },
+    "widths": [
+      400,
+      700,
+      1000,
+      1200
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/ed-compression-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/ed-compression-700.avif"
+        },
+        {
+          "w": 1000,
+          "url": "/img/ed-compression-1000.avif"
+        },
+        {
+          "w": 1200,
+          "url": "/img/ed-compression-1200.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/ed-compression-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/ed-compression-700.webp"
+        },
+        {
+          "w": 1000,
+          "url": "/img/ed-compression-1000.webp"
+        },
+        {
+          "w": 1200,
+          "url": "/img/ed-compression-1200.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/ed-compression-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/ed-compression-700.jpg"
+        },
+        {
+          "w": 1000,
+          "url": "/img/ed-compression-1000.jpg"
+        },
+        {
+          "w": 1200,
+          "url": "/img/ed-compression-1200.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRrwAAABXRUJQVlA4ILAAAABQBQCdASoUABIAPu1ur1KppiQiqAgBMB2JQBOmYjg/A//nOhqGXlpK9xdgDe1XyPWOHAAA/tfOj51dhJGoTz5+j9j1nLsxbC3I/5OCkNKT4AtHzgfkZ2Nxp/S1XwlrbP7gpbKkaKT+7Bofo+Uv6/we1z6S2eMOQMzYN6bF1WPxMLcIFCHFLrd3AIHJ+vQo5T76dyzQj+nVwMNUP4vkobXoo+Dh5jF/xzS+5VKytAAAAA=="
+  },
+  "cta-lounge": {
+    "id": "cta-lounge",
+    "src": "wandoak_p01_0.jpg",
+    "source": "03-图片素材/可用大图/wandoak_p01_0.jpg",
+    "native": {
+      "w": 1688,
+      "h": 1125
+    },
+    "ratio": 2.915451895043732,
+    "alt": {
+      "en": "Two women resting on a mint lounger after training",
+      "zh": "训练后在薄荷绿躺椅上休息的两位女性"
+    },
+    "widths": [
+      400,
+      700,
+      1000,
+      1400
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/cta-lounge-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/cta-lounge-700.avif"
+        },
+        {
+          "w": 1000,
+          "url": "/img/cta-lounge-1000.avif"
+        },
+        {
+          "w": 1400,
+          "url": "/img/cta-lounge-1400.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/cta-lounge-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/cta-lounge-700.webp"
+        },
+        {
+          "w": 1000,
+          "url": "/img/cta-lounge-1000.webp"
+        },
+        {
+          "w": 1400,
+          "url": "/img/cta-lounge-1400.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/cta-lounge-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/cta-lounge-700.jpg"
+        },
+        {
+          "w": 1000,
+          "url": "/img/cta-lounge-1000.jpg"
+        },
+        {
+          "w": 1400,
+          "url": "/img/cta-lounge-1400.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAAAwBACdASoUAAcAPu1iqU2ppaQiMAgBMB2JagCdMoADgdoUbkwYFvBL7QAA+5f7ESNvj4LQfMBea0G6qegIKEKFzpmG7I65KzIKhC/rSLecghV5DYqTlc0so8ubqtsflKN6xGb5yM/i9/jb26E5lHLeMJChmySalVMoK7EisAA="
+  },
+  "sku-W2002543": {
+    "id": "sku-W2002543",
+    "src": "W2002543.png",
+    "source": "03-图片素材/产品照片/W2002543.png",
+    "native": {
+      "w": 1050,
+      "h": 1373
+    },
+    "ratio": 0.7646341463414634,
+    "alt": {
+      "en": "Women's sports vest in black",
+      "zh": "黑色女式运动背心"
+    },
+    "widths": [
+      400,
+      700,
+      800
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/sku-W2002543-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/sku-W2002543-700.avif"
+        },
+        {
+          "w": 800,
+          "url": "/img/sku-W2002543-800.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/sku-W2002543-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/sku-W2002543-700.webp"
+        },
+        {
+          "w": 800,
+          "url": "/img/sku-W2002543-800.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/sku-W2002543-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/sku-W2002543-700.jpg"
+        },
+        {
+          "w": 800,
+          "url": "/img/sku-W2002543-800.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAACwBACdASoUABoAPu1urlIppiQiqAgBMB2JaQAALmyb8mv71fpxAUYrg7Pa14QAAP7vvpH4XPxTK1ca3RHqjo1NKqykTSWxsQzYCYGYtK1H7vgasPsSnZnD1t8yuixZFCk0fqwteLcIMSR/6KXSCSHKMe8uKYLphdyK2Jsc8SeJ/vd5FHL87jRTvY4WPMtWNOYAAA=="
+  },
+  "sku-W2102745": {
+    "id": "sku-W2102745",
+    "src": "W2102745.png",
+    "source": "03-图片素材/产品照片/W2102745.png",
+    "native": {
+      "w": 1106,
+      "h": 1446
+    },
+    "ratio": 0.7646341463414634,
+    "alt": {
+      "en": "Women's front-zip laser-perforated sports vest in avocado green",
+      "zh": "牛油果绿女式前拉链科技冲孔运动背心"
+    },
+    "widths": [
+      400,
+      700,
+      800
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/sku-W2102745-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/sku-W2102745-700.avif"
+        },
+        {
+          "w": 800,
+          "url": "/img/sku-W2102745-800.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/sku-W2102745-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/sku-W2102745-700.webp"
+        },
+        {
+          "w": 800,
+          "url": "/img/sku-W2102745-800.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/sku-W2102745-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/sku-W2102745-700.jpg"
+        },
+        {
+          "w": 800,
+          "url": "/img/sku-W2102745-800.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAADQBACdASoUABoAPu1sqlGppaOiqAqpMB2JZQAALnX0NojoaTtB1nbi6blO97R2IAD+77X6u9Lq3c5xfzK5yWoq1U0pjSY4V1tDUlGUCiG9vTJpVpaXdeAm88qligHonxOw+gqmN4HhMYqKDVSZGEB+XfPByQrKAgeenIckzXjn3Ty3t4vJE2AAAAA="
+  },
+  "sku-W2102781": {
+    "id": "sku-W2102781",
+    "src": "W2102781.png",
+    "source": "03-图片素材/产品照片/W2102781.png",
+    "native": {
+      "w": 1003,
+      "h": 1312
+    },
+    "ratio": 0.7646341463414634,
+    "alt": {
+      "en": "Women's recycled-fabric sports vest in crayon brown",
+      "zh": "蜡笔棕女式环保面料运动背心"
+    },
+    "widths": [
+      400,
+      700,
+      800
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/sku-W2102781-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/sku-W2102781-700.avif"
+        },
+        {
+          "w": 800,
+          "url": "/img/sku-W2102781-800.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/sku-W2102781-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/sku-W2102781-700.webp"
+        },
+        {
+          "w": 800,
+          "url": "/img/sku-W2102781-800.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/sku-W2102781-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/sku-W2102781-700.jpg"
+        },
+        {
+          "w": 800,
+          "url": "/img/sku-W2102781-800.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAADQBACdASoUABoAPu1or1CppaQiqAqpMB2JZQAAJcMDxW7yOo37Ycaqlnk34qMZ4AD+79cvYrRtWtlDcjk7A+4qa23/2gedpEUl2xqq2QfnIG6cpkEAi+5gicx6aE+8j6fqRlzjF67wNiMfG6FHC4OQFPW5PFs+GvcSucJM5sZlWl/j0H1c47IA"
+  },
+  "sku-W2107742": {
+    "id": "sku-W2107742",
+    "src": "W2107742.png",
+    "source": "03-图片素材/产品照片/W2107742.png",
+    "native": {
+      "w": 1294,
+      "h": 1692
+    },
+    "ratio": 0.7646341463414634,
+    "alt": {
+      "en": "Women's high-gauge sports legging in ocean blue",
+      "zh": "海洋蓝女式高针高密运动长裤"
+    },
+    "widths": [
+      400,
+      700,
+      800
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/sku-W2107742-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/sku-W2107742-700.avif"
+        },
+        {
+          "w": 800,
+          "url": "/img/sku-W2107742-800.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/sku-W2107742-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/sku-W2107742-700.webp"
+        },
+        {
+          "w": 800,
+          "url": "/img/sku-W2107742-800.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/sku-W2107742-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/sku-W2107742-700.jpg"
+        },
+        {
+          "w": 800,
+          "url": "/img/sku-W2107742-800.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAAAwBACdASoUABoAPu1sq06ppqOiMBgIATAdiWUAvkgMbamz8exEmdFp1gAA/u/Xmlfr08aXsZ0QbReZccFVHoCjqwoJM9YyT1VpsaOYeBoTnH1JPGmPCP/w1t1XqPn61B4/u07lslA8eNLCbLsgAA=="
+  },
+  "sku-W2302511": {
+    "id": "sku-W2302511",
+    "src": "W2302511.png",
+    "source": "03-图片素材/产品照片/W2302511.png",
+    "native": {
+      "w": 572,
+      "h": 747
+    },
+    "ratio": 0.7646341463414634,
+    "alt": {
+      "en": "Women's outerwear-ready sports vest in bright lemon",
+      "zh": "亮柠黄女式可外穿运动背心"
+    },
+    "widths": [
+      400,
+      572
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/sku-W2302511-400.avif"
+        },
+        {
+          "w": 572,
+          "url": "/img/sku-W2302511-572.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/sku-W2302511-400.webp"
+        },
+        {
+          "w": 572,
+          "url": "/img/sku-W2302511-572.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/sku-W2302511-400.jpg"
+        },
+        {
+          "w": 572,
+          "url": "/img/sku-W2302511-572.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAADQBACdASoUABoAPu1opU2ppiMiMBgMATAdiWwAuwAQ+GeBJurS+CkUPwmvB1t64AD+79EfhtqjolBKiL/yUP9Y2N4erRYyqQQU90waD/42K31fJR4qo6EMCt56utMLRlzCZpY6VCWQqrZ7vvKHuL4nWyD48AAA"
+  },
+  "sku-W2302719": {
+    "id": "sku-W2302719",
+    "src": "W2302719.png",
+    "source": "03-图片素材/产品照片/W2302719.png",
+    "native": {
+      "w": 893,
+      "h": 1167
+    },
+    "ratio": 0.7646341463414634,
+    "alt": {
+      "en": "Women's half-zip sports vest in quiet blue",
+      "zh": "静谧蓝女式前半开拉链运动背心"
+    },
+    "widths": [
+      400,
+      700,
+      800
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/sku-W2302719-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/sku-W2302719-700.avif"
+        },
+        {
+          "w": 800,
+          "url": "/img/sku-W2302719-800.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/sku-W2302719-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/sku-W2302719-700.webp"
+        },
+        {
+          "w": 800,
+          "url": "/img/sku-W2302719-800.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/sku-W2302719-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/sku-W2302719-700.jpg"
+        },
+        {
+          "w": 800,
+          "url": "/img/sku-W2302719-800.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAABQBQCdASoUABoAPu1qq0+ppiOiMBgIATAdiWIAyzRAACCfc/7d26wdtSnh0daNn/AiwkAA/qJBnXWqivKMo2ysSLLKflQ5k9R0M9ClGcwlD8hdfguBtv0Rh3JDm6xtNbpSCHosx8qabbq5mxhphDCZfk4ITGx7FDgAAA=="
+  },
+  "sku-W2302736": {
+    "id": "sku-W2302736",
+    "src": "W2302736.png",
+    "source": "03-图片素材/产品照片/W2302736.png",
+    "native": {
+      "w": 856,
+      "h": 1118
+    },
+    "ratio": 0.7646341463414634,
+    "alt": {
+      "en": "Women's front-zip moulded-cup sports vest in peach",
+      "zh": "蜜桃粉女式前拉链兔耳模杯运动背心"
+    },
+    "widths": [
+      400,
+      700,
+      800
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/sku-W2302736-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/sku-W2302736-700.avif"
+        },
+        {
+          "w": 800,
+          "url": "/img/sku-W2302736-800.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/sku-W2302736-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/sku-W2302736-700.webp"
+        },
+        {
+          "w": 800,
+          "url": "/img/sku-W2302736-800.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/sku-W2302736-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/sku-W2302736-700.jpg"
+        },
+        {
+          "w": 800,
+          "url": "/img/sku-W2302736-800.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAADwBACdASoUABoAPu1mq08ppaOiKA1RMB2JYwDLLBDfEjfpYBoqEjX0ttpQfR6wpQAA/u/RVRatRFpf1jqQSdrauLeStM0KDE2rEppYWqBw+nbC8o1poOXWcx+xlATADytUP0QB4xKXLgsiy6WLB0GCZoIqYzj92QlHhx4By+r/HzyXrzW8UkCCpr+2a37QQAA="
+  },
+  "sku-W2302740": {
+    "id": "sku-W2302740",
+    "src": "W2302740.png",
+    "source": "03-图片素材/产品照片/W2302740.png",
+    "native": {
+      "w": 863,
+      "h": 1129
+    },
+    "ratio": 0.7646341463414634,
+    "alt": {
+      "en": "Women's moulded-cup sports vest in duck-egg green",
+      "zh": "鸭蛋绿女式兔耳模杯运动背心"
+    },
+    "widths": [
+      400,
+      700,
+      800
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/sku-W2302740-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/sku-W2302740-700.avif"
+        },
+        {
+          "w": 800,
+          "url": "/img/sku-W2302740-800.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/sku-W2302740-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/sku-W2302740-700.webp"
+        },
+        {
+          "w": 800,
+          "url": "/img/sku-W2302740-800.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/sku-W2302740-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/sku-W2302740-700.jpg"
+        },
+        {
+          "w": 800,
+          "url": "/img/sku-W2302740-800.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAABwBACdASoUABoAPu1eqU2ppKQiN/VYATAdiWcAAC31C1ZKEGadR2xrlr0AAAD+77XhS4n4AFgr+cdA0Rxn1XBBorNFih3Rz2bM5JYcavU4vH/u1Pc+HZPi+1yFAxO/dqQRQEAA"
+  },
+  "sku-W2306505": {
+    "id": "sku-W2306505",
+    "src": "W2306505.png",
+    "source": "03-图片素材/产品照片/W2306505.png",
+    "native": {
+      "w": 816,
+      "h": 1067
+    },
+    "ratio": 0.7646341463414634,
+    "alt": {
+      "en": "Women's fitted sports tee in magenta",
+      "zh": "洋红紫女式贴合运动 T 恤"
+    },
+    "widths": [
+      400,
+      700,
+      800
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/sku-W2306505-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/sku-W2306505-700.avif"
+        },
+        {
+          "w": 800,
+          "url": "/img/sku-W2306505-800.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/sku-W2306505-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/sku-W2306505-700.webp"
+        },
+        {
+          "w": 800,
+          "url": "/img/sku-W2306505-800.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/sku-W2306505-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/sku-W2306505-700.jpg"
+        },
+        {
+          "w": 800,
+          "url": "/img/sku-W2306505-800.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAACQBACdASoUABoAPu1oqU+ppiOiKA1RMB2JbACdAA93tvf+dJR9OFGM3Rlf7+AA/u/Wd8EjUT5JRD7C9Q+8kMTxc3FLm4TC0RA+8ygpN7cy3tFAoQa7Z9eU4fCDSBYORGbWbFNk/gHtfb7zC8mmdsU/P7jUq1r4CHWtyShULGpl2vJHejkO21uun45I8pmkhPo4TAdF4AA="
+  },
+  "sku-W2304567": {
+    "id": "sku-W2304567",
+    "src": "W2304567.png",
+    "source": "03-图片素材/产品照片/W2304567.png",
+    "native": {
+      "w": 837,
+      "h": 1095
+    },
+    "ratio": 0.7646341463414634,
+    "alt": {
+      "en": "Men's fitted running tee in emerald",
+      "zh": "翡翠绿男式贴合运动 T 恤"
+    },
+    "widths": [
+      400,
+      700,
+      800
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/sku-W2304567-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/sku-W2304567-700.avif"
+        },
+        {
+          "w": 800,
+          "url": "/img/sku-W2304567-800.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/sku-W2304567-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/sku-W2304567-700.webp"
+        },
+        {
+          "w": 800,
+          "url": "/img/sku-W2304567-800.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/sku-W2304567-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/sku-W2304567-700.jpg"
+        },
+        {
+          "w": 800,
+          "url": "/img/sku-W2304567-800.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAABwBACdASoUABoAPulep02pJSOiN/VYASAdCWwAAClb4dzQk8pgfmyUYpBYwAD+79c6C+Cecj4yXtIbYwHeJaqMk6PDgO9X/85gJv++i6zV377jKycqtQe7GwEpHIjXNJpy4QHgfabqlzV9KvBWdFbq6U7/LL9We1lsOKj8KYAAAA=="
+  },
+  "sku-W2304570": {
+    "id": "sku-W2304570",
+    "src": "W2304570.png",
+    "source": "03-图片素材/产品照片/W2304570.png",
+    "native": {
+      "w": 792,
+      "h": 1036
+    },
+    "ratio": 0.7646341463414634,
+    "alt": {
+      "en": "Men's fitted running vest in China red",
+      "zh": "中国红男式贴合运动背心"
+    },
+    "widths": [
+      400,
+      700,
+      792
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/sku-W2304570-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/sku-W2304570-700.avif"
+        },
+        {
+          "w": 792,
+          "url": "/img/sku-W2304570-792.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/sku-W2304570-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/sku-W2304570-700.webp"
+        },
+        {
+          "w": 792,
+          "url": "/img/sku-W2304570-792.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/sku-W2304570-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/sku-W2304570-700.jpg"
+        },
+        {
+          "w": 792,
+          "url": "/img/sku-W2304570-792.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAAAwBACdASoUABoAPu1ur1KppiQiqAgBMB2JbAC7AA5Wzucmak0LXhTxQMAA/u/WhIuKsVo2aO32myebA6Zw4JvTcIphLifLshPe8gtzOUeMvyTt239E9V3MPbHp6No6h9eHiHCXdXtWPQrzXdCgv/0RSeLXZ/Y3x7v4N/kLt56pljwAAAA="
+  },
+  "sku-W2306738": {
+    "id": "sku-W2306738",
+    "src": "W2306738.png",
+    "source": "03-图片素材/产品照片/W2306738.png",
+    "native": {
+      "w": 848,
+      "h": 1109
+    },
+    "ratio": 0.7646341463414634,
+    "alt": {
+      "en": "Men's stand-collar jacket in gull blue",
+      "zh": "鸥蓝男式立领外套"
+    },
+    "widths": [
+      400,
+      700,
+      800
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/sku-W2306738-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/sku-W2306738-700.avif"
+        },
+        {
+          "w": 800,
+          "url": "/img/sku-W2306738-800.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/sku-W2306738-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/sku-W2306738-700.webp"
+        },
+        {
+          "w": 800,
+          "url": "/img/sku-W2306738-800.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/sku-W2306738-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/sku-W2306738-700.jpg"
+        },
+        {
+          "w": 800,
+          "url": "/img/sku-W2306738-800.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAAAwBQCdASoUABoAPu1kq0+ppSOiMBgIATAdiWMAuwARD3hLSIwKSPrBvSK1G4T+AVGIAAD+79IsZA5iN1ZCtdrB4ssfJVdJTvb2UseoakrVHK4ff7yiSOjATCqA99iRfdL1jVRqW/ENZQu22BzXmu8DVLp7nFfV9IU0NbjLU8ComSzvnSPVO4AA"
+  },
+  "sku-W2307555": {
+    "id": "sku-W2307555",
+    "src": "W2307555.png",
+    "source": "03-图片素材/产品照片/W2307555.png",
+    "native": {
+      "w": 673,
+      "h": 880
+    },
+    "ratio": 0.7646341463414634,
+    "alt": {
+      "en": "Men's split-hem marathon short",
+      "zh": "男式马拉松开叉短裤"
+    },
+    "widths": [
+      400,
+      673
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/sku-W2307555-400.avif"
+        },
+        {
+          "w": 673,
+          "url": "/img/sku-W2307555-673.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/sku-W2307555-400.webp"
+        },
+        {
+          "w": 673,
+          "url": "/img/sku-W2307555-673.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/sku-W2307555-400.jpg"
+        },
+        {
+          "w": 673,
+          "url": "/img/sku-W2307555-673.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAACQBACdASoUABoAPu1qqVAppiOiqA1RMB2JZQAAKdxaMSUq33Hy+EnSR09KAAAA/u/XkM+P5AoANt1spdgeeJDgmkwM21/tn8BrOwbgOhr5yfQ16Acmdhp7DryN1RFuQilbTKtCWfYGITjpLVY4ZrGMb0goAA=="
+  },
+  "sku-W2307571": {
+    "id": "sku-W2307571",
+    "src": "W2307571.png",
+    "source": "03-图片素材/产品照片/W2307571.png",
+    "native": {
+      "w": 686,
+      "h": 897
+    },
+    "ratio": 0.7646341463414634,
+    "alt": {
+      "en": "Men's compression short in sea teal",
+      "zh": "海青色男式运动压缩短裤"
+    },
+    "widths": [
+      400,
+      686
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/sku-W2307571-400.avif"
+        },
+        {
+          "w": 686,
+          "url": "/img/sku-W2307571-686.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/sku-W2307571-400.webp"
+        },
+        {
+          "w": 686,
+          "url": "/img/sku-W2307571-686.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/sku-W2307571-400.jpg"
+        },
+        {
+          "w": 686,
+          "url": "/img/sku-W2307571-686.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRrYAAABXRUJQVlA4IKoAAADQBACdASoUABoAPu1kqE2ppaOiMBgMATAdiWgAuwAPRxX4fcsCz8hxT+6QqdRsAAD+7dYrxHzQ1wB+tuaZ4h0nUNqpOmxJ6QyDrnAAOhTlB1FSZeCSij0H4aXwiKFbmKlBMfQr+s6t+z0Gb4g+aAMSe3eWX4EA2DcqpJTm4PJU+cHTEIPAWgGyTmaG477kF9UUesyS3NUQFL6gbd94m3HWlFQWXdfN8cAAAA=="
+  },
+  "sku-W2307573": {
+    "id": "sku-W2307573",
+    "src": "W2307573.png",
+    "source": "03-图片素材/产品照片/W2307573.png",
+    "native": {
+      "w": 659,
+      "h": 862
+    },
+    "ratio": 0.7646341463414634,
+    "alt": {
+      "en": "Men's compression short in China red",
+      "zh": "中国红男式运动短裤"
+    },
+    "widths": [
+      400,
+      659
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/sku-W2307573-400.avif"
+        },
+        {
+          "w": 659,
+          "url": "/img/sku-W2307573-659.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/sku-W2307573-400.webp"
+        },
+        {
+          "w": 659,
+          "url": "/img/sku-W2307573-659.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/sku-W2307573-400.jpg"
+        },
+        {
+          "w": 659,
+          "url": "/img/sku-W2307573-659.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAABwBACdASoUABoAPu1qrFCppaQiqAqpMB2JbAAAKdFvh2ZormBpuTeo/TDoAAD+7WGVb34lBwuevSen3e7ZzgQxUQLJpUnYVF7J0H/9ovX+B+U6P13tpbH9t0PFLz/S2RNLna+1PQDIY+9FYGNH/DW/VUMNUpNjiOdnw4iejY9AZdbR8OKkU3cCX29qexMp7iTEG+kdfoAAAA=="
+  },
+  "sku-W2307578": {
+    "id": "sku-W2307578",
+    "src": "W2307578.png",
+    "source": "03-图片素材/产品照片/W2307578.png",
+    "native": {
+      "w": 659,
+      "h": 862
+    },
+    "ratio": 0.7646341463414634,
+    "alt": {
+      "en": "Men's running short in washed blue",
+      "zh": "水洗蓝男式运动短裤"
+    },
+    "widths": [
+      400,
+      659
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/sku-W2307578-400.avif"
+        },
+        {
+          "w": 659,
+          "url": "/img/sku-W2307578-659.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/sku-W2307578-400.webp"
+        },
+        {
+          "w": 659,
+          "url": "/img/sku-W2307578-659.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/sku-W2307578-400.jpg"
+        },
+        {
+          "w": 659,
+          "url": "/img/sku-W2307578-659.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAACwBACdASoUABoAPu1sq1EppaOiqAqpMB2JZQC7AA9napxRuCgZoNobfAkFgWlgAP7tYZAfUnSuVjOJl/l29T9fK6n+nODCeen4oMWTc8KNS63DeZPlEhyoTquwMspazClfTc5UKPP/NMsetaX1etu1ufiqo0GIXEwKr4THdhtwgW9gGEAAAA=="
+  },
+  "cat-hero-bra": {
+    "id": "cat-hero-bra",
+    "src": "shot-bra.jpg",
+    "source": "03-图片素材/产品照片/shot-bra.jpg",
+    "native": {
+      "w": 1334,
+      "h": 2000
+    },
+    "ratio": 2.915451895043732,
+    "alt": {
+      "en": "A runner in a bright lemon WANDOAK vest",
+      "zh": "身着亮柠黄 WANDOAK 背心的跑者"
+    },
+    "widths": [
+      400,
+      700,
+      1000,
+      1334
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/cat-hero-bra-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/cat-hero-bra-700.avif"
+        },
+        {
+          "w": 1000,
+          "url": "/img/cat-hero-bra-1000.avif"
+        },
+        {
+          "w": 1334,
+          "url": "/img/cat-hero-bra-1334.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/cat-hero-bra-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/cat-hero-bra-700.webp"
+        },
+        {
+          "w": 1000,
+          "url": "/img/cat-hero-bra-1000.webp"
+        },
+        {
+          "w": 1334,
+          "url": "/img/cat-hero-bra-1334.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/cat-hero-bra-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/cat-hero-bra-700.jpg"
+        },
+        {
+          "w": 1000,
+          "url": "/img/cat-hero-bra-1000.jpg"
+        },
+        {
+          "w": 1334,
+          "url": "/img/cat-hero-bra-1334.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAwCdASoUAAcAPu1iqU2ppaOiMAgBMB2JbACw7CP//RAW+p+PgN6AAP7n3bdrS9HyaixTCPk8xzVv6a/h9yc0XR/9TIrCTgow6kwYguaAAA=="
+  },
+  "cat-hero-bottoms": {
+    "id": "cat-hero-bottoms",
+    "src": "shot-bottoms.jpg",
+    "source": "03-图片素材/产品照片/shot-bottoms.jpg",
+    "native": {
+      "w": 1333,
+      "h": 2000
+    },
+    "ratio": 2.915451895043732,
+    "alt": {
+      "en": "WANDOAK leggings in the studio",
+      "zh": "棚拍中的 WANDOAK 紧身裤"
+    },
+    "widths": [
+      400,
+      700,
+      1000,
+      1333
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/cat-hero-bottoms-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/cat-hero-bottoms-700.avif"
+        },
+        {
+          "w": 1000,
+          "url": "/img/cat-hero-bottoms-1000.avif"
+        },
+        {
+          "w": 1333,
+          "url": "/img/cat-hero-bottoms-1333.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/cat-hero-bottoms-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/cat-hero-bottoms-700.webp"
+        },
+        {
+          "w": 1000,
+          "url": "/img/cat-hero-bottoms-1000.webp"
+        },
+        {
+          "w": 1333,
+          "url": "/img/cat-hero-bottoms-1333.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/cat-hero-bottoms-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/cat-hero-bottoms-700.jpg"
+        },
+        {
+          "w": 1000,
+          "url": "/img/cat-hero-bottoms-1000.jpg"
+        },
+        {
+          "w": 1333,
+          "url": "/img/cat-hero-bottoms-1333.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACQAwCdASoUAAcAPu1iqU2ppaOiMAgBMB2JZwCAAAQvQ6t6pQYAAP7evyohoc3d80uImUnDdSFE+3IYSSPsemmsTAPUV4TwXg/gAA=="
+  },
+  "cat-hero-tops": {
+    "id": "cat-hero-tops",
+    "src": "shot-tops.jpg",
+    "source": "03-图片素材/产品照片/shot-tops.jpg",
+    "native": {
+      "w": 1334,
+      "h": 2000
+    },
+    "ratio": 2.915451895043732,
+    "alt": {
+      "en": "A WANDOAK running tee in the studio",
+      "zh": "棚拍中的 WANDOAK 运动 T 恤"
+    },
+    "widths": [
+      400,
+      700,
+      1000,
+      1334
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/cat-hero-tops-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/cat-hero-tops-700.avif"
+        },
+        {
+          "w": 1000,
+          "url": "/img/cat-hero-tops-1000.avif"
+        },
+        {
+          "w": 1334,
+          "url": "/img/cat-hero-tops-1334.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/cat-hero-tops-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/cat-hero-tops-700.webp"
+        },
+        {
+          "w": 1000,
+          "url": "/img/cat-hero-tops-1000.webp"
+        },
+        {
+          "w": 1334,
+          "url": "/img/cat-hero-tops-1334.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/cat-hero-tops-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/cat-hero-tops-700.jpg"
+        },
+        {
+          "w": 1000,
+          "url": "/img/cat-hero-tops-1000.jpg"
+        },
+        {
+          "w": 1334,
+          "url": "/img/cat-hero-tops-1334.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAABwAwCdASoUAAcAPu1iqU2ppaQiMAgBMB2JZQC7ABjxQG6y9bAA/udAh/yLcHI0rlmz1JHgHYg9pWK15jFkAAAA"
+  },
+  "ed-zip": {
+    "id": "ed-zip",
+    "src": "shot-zip.jpg",
+    "source": "03-图片素材/产品照片/shot-zip.jpg",
+    "native": {
+      "w": 1333,
+      "h": 2000
+    },
+    "ratio": 1.1111111111111112,
+    "alt": {
+      "en": "The front-zip vest worn in the studio",
+      "zh": "前拉链运动背心的上身效果"
+    },
+    "widths": [
+      400,
+      700,
+      1000,
+      1200
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/ed-zip-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/ed-zip-700.avif"
+        },
+        {
+          "w": 1000,
+          "url": "/img/ed-zip-1000.avif"
+        },
+        {
+          "w": 1200,
+          "url": "/img/ed-zip-1200.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/ed-zip-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/ed-zip-700.webp"
+        },
+        {
+          "w": 1000,
+          "url": "/img/ed-zip-1000.webp"
+        },
+        {
+          "w": 1200,
+          "url": "/img/ed-zip-1200.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/ed-zip-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/ed-zip-700.jpg"
+        },
+        {
+          "w": 1000,
+          "url": "/img/ed-zip-1000.jpg"
+        },
+        {
+          "w": 1200,
+          "url": "/img/ed-zip-1200.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADwAwCdASoUABIAPu1mq0+ppSOiMBgIATAdiWcAACF3hMH1Vz1UThcAAP7tYXdmuvOfOHfNGiBYkK0UfhDBCtdLcqWdpS5IMY9lKmGSmmzalxdR0pCk1U48hzHO/gAA"
+  },
+  "ed-outdoor": {
+    "id": "ed-outdoor",
+    "src": "shot-outdoor.jpg",
+    "source": "03-图片素材/产品照片/shot-outdoor.jpg",
+    "native": {
+      "w": 1333,
+      "h": 2000
+    },
+    "ratio": 1.1111111111111112,
+    "alt": {
+      "en": "WANDOAK worn outdoors by the water",
+      "zh": "水边的 WANDOAK 实穿场景"
+    },
+    "widths": [
+      400,
+      700,
+      1000,
+      1200
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/ed-outdoor-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/ed-outdoor-700.avif"
+        },
+        {
+          "w": 1000,
+          "url": "/img/ed-outdoor-1000.avif"
+        },
+        {
+          "w": 1200,
+          "url": "/img/ed-outdoor-1200.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/ed-outdoor-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/ed-outdoor-700.webp"
+        },
+        {
+          "w": 1000,
+          "url": "/img/ed-outdoor-1000.webp"
+        },
+        {
+          "w": 1200,
+          "url": "/img/ed-outdoor-1200.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/ed-outdoor-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/ed-outdoor-700.jpg"
+        },
+        {
+          "w": 1000,
+          "url": "/img/ed-outdoor-1000.jpg"
+        },
+        {
+          "w": 1200,
+          "url": "/img/ed-outdoor-1200.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAADwAwCdASoUABIAPu1qqVAppiOiqA1RMB2JZAAAHRR4GJ/aCGtWfa8AANbaa8iiGAWKzUFbqff8ymClNSeVq3lrp2qeamQ10f9/eoDanrD/vP00kDwp2fywFjUEK3Ukr5NyN1zoGRiM4ret/mw4GLZAKMHwNAohmdYBsAAA"
+  },
+  "tech-1": {
+    "id": "tech-1",
+    "src": "tech-support.jpg",
+    "source": "03-图片素材/产品照片/tech-support.jpg",
+    "native": {
+      "w": 1333,
+      "h": 2000
+    },
+    "ratio": 0.6666666666666666,
+    "alt": {
+      "en": "Five-way support construction",
+      "zh": "五向支撑结构"
+    },
+    "widths": [
+      400,
+      700
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/tech-1-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/tech-1-700.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/tech-1-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/tech-1-700.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/tech-1-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/tech-1-700.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRsAAAABXRUJQVlA4ILQAAABQBQCdASoUAB4APu1kqU2ppaOiMAgBMB2JQBdkJABFiX/Q5RCiS04HamUA3oUNqVjsuvAA/tOfshK9WF0wjw7GpO8FN0CqW0zcUtR5TTBcgUcnhJNk4g1SNAtzt3z6LPhv2YU7Gv/5wvyneL9FBWTe5v4U8xtFmr2EsKLaNRYGJKOo3jClxAxL7+NcbIwa53UX/XejTj8YHvcAULxt3okORl984TDEEY1QoCYOs2sunvFAAAA="
+  },
+  "tech-4": {
+    "id": "tech-4",
+    "src": "tech-graphene.jpg",
+    "source": "03-图片素材/产品照片/tech-graphene.jpg",
+    "native": {
+      "w": 1333,
+      "h": 2000
+    },
+    "ratio": 0.6666666666666666,
+    "alt": {
+      "en": "Graphene-treated technical fabric",
+      "zh": "石墨烯功能面料"
+    },
+    "widths": [
+      400,
+      700
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/tech-4-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/tech-4-700.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/tech-4-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/tech-4-700.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/tech-4-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/tech-4-700.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRsoAAABXRUJQVlA4IL4AAACwBQCdASoUAB4APu1sq08ppiOiMBgIATAdiWUAxPjnyf4tkWqNz7jXqGUj1c1vWVLlMxUruoAA/t6kdUC/r68NYF6CvpE0AePwemHiUIVAbLPLC2YVS92uU2vAlTxru7y6h79Yv5D5Ir3pH8rlzkhcKWtyrZoe/Fnb6LOasanNCugUSC8m/mMD0Q5MOElPv/tbWTyVLN/qrfU2qw2EgKxOiGT7dMqrOgh8CNRChDIKDNLCASxVTLUKQVxZXAAA"
+  },
+  "tech-5": {
+    "id": "tech-5",
+    "src": "tech-lycra.jpg",
+    "source": "03-图片素材/产品照片/tech-lycra.jpg",
+    "native": {
+      "w": 1333,
+      "h": 2000
+    },
+    "ratio": 0.6666666666666666,
+    "alt": {
+      "en": "Stretch Lycra recovery and hold",
+      "zh": "弹力莱卡的回弹与支撑"
+    },
+    "widths": [
+      400,
+      700
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/tech-5-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/tech-5-700.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/tech-5-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/tech-5-700.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/tech-5-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/tech-5-700.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRrQAAABXRUJQVlA4IKgAAABQBQCdASoUAB4APuVio02pJaMiMAwBIByJQBOgZYA2REbr1cxDj0es1s6t0RFNBDLDXeAA/tMr6o+bqTjp9TOLTq5oSOKgeRaA0HsbnZoZAXXLrzJRFbwLyJVTY3TSXKMB6YMH1qyAJWUeipsZqwT9WLe+vkzIkhGLHcdbkVIofiph1as8t3CcbX9j5ljAL30760zfJ1rGJbjbkkjGaUYtXuGzdIvdYAA="
   },
   "mark-wandoak": {
     "id": "mark-wandoak",

@@ -16,7 +16,10 @@ const BASE = process.argv[2] || 'http://localhost:5178'
 const HERE = path.dirname(fileURLToPath(import.meta.url))
 const SHOTS = path.resolve(HERE, '../qa/shots')
 
-const ROUTES = ['/', '/partner', '/about', '/design', '/products', '/factory', '/quality', '/contact']
+const ROUTES = [
+  '/', '/partner', '/design', '/products', '/factory', '/quality', '/contact',
+  '/products/bra', '/products/bottoms', '/products/tops', '/products/outer',
+]
 const WIDTHS = [390, 768, 1024, 1440, 1920]
 
 const results = []
@@ -360,8 +363,11 @@ async function main() {
     { sel: '.cta__title', name: 'cta display' },
     { sel: '.cta__lead', name: 'cta lead' },
   ]
-  const contrastRows = []
-  for (const target of overlayTargets) {
+  /* Extracted so the phase-2 pages can be held to the same bar; it reads and
+     restores `page`, so callers must already be on the route under test. */
+  async function overlayContrast(targets) {
+    const rows = []
+    for (const target of targets) {
     // Hide the glyphs and photograph what is behind them. Sampling the text
     // in place would just measure white against white.
     const box = await page.evaluate((sel) => {
@@ -376,7 +382,7 @@ async function main() {
     }, target.sel)
 
     if (!box || box.w < 2 || box.h < 2) {
-      contrastRows.push({ ...target, ratio: null, note: 'not found' })
+      rows.push({ ...target, ratio: null, note: 'not found' })
       continue
     }
 
@@ -398,20 +404,26 @@ async function main() {
       }
     }, target.sel)
 
-    const ground = await brightestGround(shot)
-    const fg = parseRgb(box.color)
-    const ratio = contrastRatio(fg, ground)
-    contrastRows.push({ ...target, ratio, note: `fg ${box.color} vs worst ground rgb(${ground.join(',')})` })
+      const ground = await brightestGround(shot)
+      const fg = parseRgb(box.color)
+      const ratio = contrastRatio(fg, ground)
+      rows.push({ ...target, ratio, note: `fg ${box.color} vs worst ground rgb(${ground.join(',')})` })
+    }
+    return rows
   }
 
-  const worst = contrastRows.filter((r) => r.ratio !== null).sort((a, b) => a.ratio - b.ratio)[0]
-  record(
-    'A16',
-    'overlay text contrast >= 4.5:1',
-    contrastRows.every((r) => r.ratio !== null && r.ratio >= 4.5),
-    contrastRows.map((r) => `${r.name} ${r.ratio ? r.ratio.toFixed(2) : '?'}:1`).join(' · ') +
-      (worst ? ` — worst ${worst.name}, ${worst.note}` : ''),
-  )
+  function reportContrast(id, label, rows) {
+    const worst = rows.filter((r) => r.ratio !== null).sort((a, b) => a.ratio - b.ratio)[0]
+    record(
+      id,
+      label,
+      rows.length > 0 && rows.every((r) => r.ratio !== null && r.ratio >= 4.5),
+      rows.map((r) => `${r.name} ${r.ratio ? r.ratio.toFixed(2) : '?'}:1`).join(' · ') +
+        (worst ? ` — worst ${worst.name}, ${worst.note}` : ''),
+    )
+  }
+
+  reportContrast('A16', 'overlay text contrast >= 4.5:1', await overlayContrast(overlayTargets))
 
   // ---------------------------------------------------------------- A10 (locale swap)
   const beforeH = await page.evaluate(() => document.documentElement.scrollHeight)
@@ -495,6 +507,285 @@ async function main() {
   )
   await rmCtx.close()
 
+  // ---------------------------------------------------------------- A19 / A20
+  // The phase-2 pages are held to the same invariants the home page is
+  // measured against. Without this they can drift the moment someone adds a
+  // section with its own margin or a fifth heading size.
+  const BUILT = [
+    ['products', '/products'],
+    ['factory', '/factory'],
+    ['cat-bra', '/products/bra'],
+    ['cat-outer', '/products/outer'],
+  ]
+  const builtIssues = []
+  const builtNotes = []
+  const builtContrast = []
+
+  for (const [name, route] of BUILT) {
+    await page.setViewportSize({ width: 1440, height: 900 })
+    await page.goto(`${BASE}${route}`, { waitUntil: 'domcontentloaded' })
+    await settle(page)
+
+    const m = await page.evaluate((allowed) => {
+      const secs = [...document.querySelectorAll('main .section')]
+      const gaps = []
+      for (let i = 1; i < secs.length; i += 1) {
+        gaps.push(
+          Math.round((secs[i].getBoundingClientRect().top - secs[i - 1].getBoundingClientRect().bottom) * 100) / 100,
+        )
+      }
+      const ca = document.querySelector('.container-a')
+      const cs = ca && getComputedStyle(ca)
+      const caW = ca
+        ? ca.getBoundingClientRect().width - parseFloat(cs.paddingLeft) - parseFloat(cs.paddingRight)
+        : null
+
+      const seen = new Set()
+      const walk = (node) => {
+        if (node.nodeType === 3) {
+          if (!node.textContent.trim()) return
+          const el = node.parentElement
+          if (el) seen.add(Math.round(parseFloat(getComputedStyle(el).fontSize) * 100) / 100)
+          return
+        }
+        for (const c of node.childNodes) walk(c)
+      }
+      walk(document.body)
+
+      const imgs = [...document.querySelectorAll('img')]
+      return {
+        sections: secs.length,
+        gaps: [...new Set(gaps)],
+        caW,
+        strays: [...seen].filter((v) => !allowed.includes(v)),
+        imgs: imgs.length,
+        noDim: imgs.filter((i) => !i.getAttribute('width') || !i.getAttribute('height')).length,
+        noAlt: imgs.filter((i) => i.getAttribute('alt') === null).length,
+        broken: imgs.filter((i) => i.complete && i.naturalWidth === 0).length,
+        stuck: [...document.querySelectorAll('.reveal')].filter((e) => !e.classList.contains('is-in')).length,
+      }
+    }, [...ALLOWED])
+
+    if (m.sections < 4) builtIssues.push(`${name}: only ${m.sections} sections`)
+    if (!m.gaps.every((g) => near(g, 70, 1))) builtIssues.push(`${name}: gaps ${m.gaps.join('/')}`)
+    if (!near(m.caW, 1350)) builtIssues.push(`${name}: container-a ${m.caW?.toFixed(2)}`)
+    if (m.strays.length) builtIssues.push(`${name}: stray type ${m.strays.join('/')}px`)
+    if (m.noDim || m.noAlt || m.broken) {
+      builtIssues.push(`${name}: imgs dim ${m.noDim} alt ${m.noAlt} broken ${m.broken}`)
+    }
+    if (m.stuck) builtIssues.push(`${name}: ${m.stuck} reveals never fired`)
+    builtNotes.push(`${name} ${m.sections} sections · ${m.imgs} imgs`)
+
+    // Horizontal overflow is the failure these pages are most likely to hit:
+    // the 5-up product row and the 4-up floor strip both add new track counts.
+    for (const w of [320, 390, 768, 1024, 1280, 1440, 1920]) {
+      await page.setViewportSize({ width: w, height: 900 })
+      await page.waitForTimeout(140)
+      const over = await page.evaluate(
+        () => document.documentElement.scrollWidth - document.documentElement.clientWidth,
+      )
+      if (over > 1) builtIssues.push(`${name}@${w}: overflow ${over}px`)
+    }
+
+    await page.setViewportSize({ width: 1440, height: 900 })
+    await settle(page)
+    const rows = await overlayContrast([
+      { sel: '.ih__title', name: `${name} hero h1` },
+      { sel: '.ih__lead', name: `${name} hero lead` },
+      { sel: '.cta__title', name: `${name} cta display` },
+      { sel: '.cta__lead', name: `${name} cta lead` },
+    ])
+    builtContrast.push(...rows)
+  }
+
+  record(
+    'A19',
+    'products + factory hold rhythm, container, type scale, image hygiene',
+    builtIssues.length === 0,
+    builtIssues.join(' · ') || builtNotes.join(' · '),
+  )
+  reportContrast('A20', 'inner-page overlay contrast >= 4.5:1', builtContrast)
+
+  // ---------------------------------------------------------------- A21
+  // settle() steps down the page because a single jump skips sections. A real
+  // visitor can produce that jump too — scroll restoration on a back-nav, an
+  // in-page #hash, the End key — so the reveal has to survive one.
+  const jumpStuck = []
+  for (const [name, route] of [['home', '/'], ['partner', '/partner'], ...BUILT]) {
+    await page.setViewportSize({ width: 1440, height: 900 })
+    await page.goto(`${BASE}${route}`, { waitUntil: 'domcontentloaded' })
+    await page.waitForTimeout(400)
+    await page.evaluate(() => window.scrollTo(0, document.documentElement.scrollHeight))
+    await page.waitForTimeout(1200)
+    const stuck = await page.evaluate(() =>
+      [...document.querySelectorAll('.reveal')]
+        .filter((e) => !e.classList.contains('is-in'))
+        .map((e) => e.className.split(' ')[0]),
+    )
+    if (stuck.length) jumpStuck.push(`${name}: ${stuck.join('/')}`)
+  }
+  record(
+    'A21',
+    'reveals survive an instant jump to the foot of the page',
+    jumpStuck.length === 0,
+    jumpStuck.join(' · ') || 'nothing left faded on 4 pages',
+  )
+
+  // ---------------------------------------------------------------- A22
+  // The inner-page hero band. Its height must come from the component's own
+  // Container C geometry (1300 × 445.9), not from whichever asset is passed,
+  // and the caption must never be clipped by it at any width.
+  const ihIssues = []
+  const ihRoutes = ['/products', '/factory', '/partner', '/design', '/quality', '/contact', '/products/bra', '/products/outer']
+  for (const w of [320, 390, 768, 1024, 1440]) {
+    await page.setViewportSize({ width: w, height: 900 })
+    for (const route of ihRoutes) {
+      await page.goto(`${BASE}${route}`, { waitUntil: 'domcontentloaded' })
+      await page.waitForTimeout(260)
+      const m = await page.evaluate(() => {
+        const f = document.querySelector('.ih__frame')
+        const i = document.querySelector('.ih__inner')
+        if (!f || !i) return null
+        const fr = f.getBoundingClientRect()
+        const ir = i.getBoundingClientRect()
+        return {
+          h: Math.round(fr.height * 100) / 100,
+          spill: Math.round(Math.max(fr.top - ir.top, ir.bottom - fr.bottom)),
+        }
+      })
+      if (!m) {
+        ihIssues.push(`${route}@${w}: no inner hero`)
+        continue
+      }
+      if (m.spill > 0) ihIssues.push(`${route}@${w}: caption clipped ${m.spill}px`)
+      if (w === 1440 && !near(m.h, 445.9, 1.5)) ihIssues.push(`${route}@1440: band ${m.h} not 445.9`)
+    }
+  }
+  record(
+    'A22',
+    'inner hero holds 1300×445.9 and never clips its caption, 320–1440',
+    ihIssues.length === 0,
+    ihIssues.join(' · ') || `${ihRoutes.length} routes × 5 widths clean`,
+  )
+
+  // ---------------------------------------------------------------- A23
+  // The second level now carries the real 2026 range. Two things are being
+  // watched: that every category resolves and links correctly, and that MOQ
+  // and lead time — the only two fields the range sheet still does not answer
+  // — stay marked as such. A cell that quietly acquires a number here is a
+  // figure a visitor could read off the screen at a trade show.
+  const CATS = { bra: 7, tops: 3, bottoms: 5, outer: 1 }
+  const catIssues = []
+  const catNotes = []
+  await page.setViewportSize({ width: 1440, height: 900 })
+
+  for (const [slug, expected] of Object.entries(CATS)) {
+    await page.goto(`${BASE}/products/${slug}`, { waitUntil: 'domcontentloaded' })
+    await settle(page)
+    const m = await page.evaluate(() => ({
+      h1: document.querySelectorAll('h1').length,
+      notice: !!document.querySelector('.notice__box'),
+      crumbs: document.querySelectorAll('.crumb__item').length,
+      navActive: [...document.querySelectorAll('.nav__item.is-active')].map((e) => e.textContent.trim()),
+      cards: document.querySelectorAll('.sku__card').length,
+      codes: [...document.querySelectorAll('.sku__code')].map((e) => e.textContent.trim()),
+      names: [...document.querySelectorAll('.sku__name')].map((e) => e.textContent.trim()),
+      rows: document.querySelectorAll('.sku__row').length,
+      pending: document.querySelectorAll('.sku__value--pending').length,
+      emptyCells: [...document.querySelectorAll('.sku__value')].filter((e) => !e.textContent.trim()).length,
+      brokenImgs: [...document.querySelectorAll('.sku__media img')].filter((i) => i.complete && i.naturalWidth === 0).length,
+      siblingLinks: [...document.querySelectorAll('.cards .card')].map((a) => a.getAttribute('href')),
+    }))
+
+    if (m.h1 !== 1) catIssues.push(`${slug}: ${m.h1} h1`)
+    if (!m.notice) catIssues.push(`${slug}: pending-fields notice missing`)
+    if (m.crumbs !== 2) catIssues.push(`${slug}: ${m.crumbs} breadcrumb steps`)
+    if (m.navActive.length !== 1) catIssues.push(`${slug}: nav highlight ${m.navActive.join('/') || 'none'}`)
+    if (m.cards !== expected) catIssues.push(`${slug}: ${m.cards} styles, expected ${expected}`)
+    if (m.codes.some((c) => !/^W\d{7}$/.test(c))) catIssues.push(`${slug}: style codes ${m.codes.join(',')}`)
+    if (m.names.some((n) => !n)) catIssues.push(`${slug}: a style has no name`)
+    if (m.emptyCells) catIssues.push(`${slug}: ${m.emptyCells} blank spec cells`)
+    if (m.brokenImgs) catIssues.push(`${slug}: ${m.brokenImgs} broken style images`)
+    // Exactly MOQ and lead time per style — no more (a field silently emptied)
+    // and no fewer (a figure that arrived without the notice being retired).
+    if (m.pending !== m.cards * 2) {
+      catIssues.push(`${slug}: ${m.pending} pending cells across ${m.cards} styles, expected ${m.cards * 2}`)
+    }
+    if (m.siblingLinks.length !== 3) catIssues.push(`${slug}: ${m.siblingLinks.length} sibling cards`)
+    if (m.siblingLinks.some((h) => h === `/products/${slug}`)) catIssues.push(`${slug}: links to itself`)
+    catNotes.push(`${slug} ${m.cards} styles · ${m.pending} pending`)
+  }
+
+  // Stock counts and barcodes are in the source sheet and must never reach a
+  // page: stock is wrong the day it ships, barcodes are internal.
+  await page.goto(`${BASE}/products/bra`, { waitUntil: 'domcontentloaded' })
+  await settle(page)
+  const leaked = await page.evaluate(() => {
+    // Scope to the style grid: the notice above it explains *why* stock is
+    // withheld, so scanning the whole page matches that explanation.
+    const grid = document.querySelector('.sku')
+    const text = grid ? grid.textContent : ''
+    // A long digit run after the W prefix is a barcode rather than a style
+    // code; the style codes themselves are exactly seven digits.
+    return {
+      barcode: /\bW\d{11,}\b/.test(text),
+      stock: /库存|\bstock\b/i.test(text),
+    }
+  })
+  if (leaked.barcode) catIssues.push('a barcode reached the page')
+  if (leaked.stock) catIssues.push('stock data reached the page')
+
+  await page.goto(`${BASE}/products/not-a-category`, { waitUntil: 'domcontentloaded' })
+  await page.waitForTimeout(400)
+  const bogus = await page.evaluate(() => document.body.textContent.includes('404'))
+  if (!bogus) catIssues.push('unknown slug did not fall through to the 404')
+
+  for (const [name, route] of [['home', '/'], ['hub', '/products']]) {
+    await page.goto(`${BASE}${route}`, { waitUntil: 'domcontentloaded' })
+    await settle(page)
+    const hrefs = await page.evaluate(() =>
+      [...document.querySelectorAll('.cards .card')].map((a) => a.getAttribute('href')),
+    )
+    const want = Object.keys(CATS).map((c) => `/products/${c}`)
+    if (want.some((w) => !hrefs.includes(w))) catIssues.push(`${name} four-up → ${hrefs.join(',')}`)
+  }
+
+  record(
+    'A23',
+    'the range renders in full, and only MOQ + lead time read as pending',
+    catIssues.length === 0,
+    catIssues.join(' · ') ||
+      `${catNotes.join(' · ')} · no stock or barcodes on page · 404 on unknown slug · both four-ups link through`,
+  )
+
+  // ---------------------------------------------------------------- A24
+  // No photograph may be served smaller than the box it is painted into. The
+  // `sizes` hint is what decides which rung of the width ladder the browser
+  // takes, and a hint that no longer matches the layout — a four-up's 23vw
+  // left on a three-up — silently upscales every card on the page.
+  const softImages = []
+  for (const route of ['/', '/products', '/factory', '/partner', '/products/bra', '/products/outer']) {
+    await page.setViewportSize({ width: 1440, height: 900 })
+    await page.goto(`${BASE}${route}`, { waitUntil: 'domcontentloaded' })
+    await settle(page)
+    const soft = await page.evaluate(() =>
+      [...document.querySelectorAll('.pic img')]
+        .map((img) => {
+          const w = Math.round(img.getBoundingClientRect().width)
+          return { w, served: img.naturalWidth, file: (img.currentSrc || '').split('/').pop() }
+        })
+        // 2px of slack: sub-pixel track widths round against us either way.
+        .filter((r) => r.w > 0 && r.served > 0 && r.served < r.w - 2),
+    )
+    for (const r of soft) softImages.push(`${route} ${r.file} ${r.served}px into ${r.w}px`)
+  }
+  record(
+    'A24',
+    'no image is served smaller than the box it renders into',
+    softImages.length === 0,
+    softImages.join(' · ') || 'all served at or above their painted width on 6 routes',
+  )
+
   // ---------------------------------------------------------------- A12
   record('A12', 'console errors / failed requests', consoleErrors.length === 0 && failedRequests.length === 0,
     `${consoleErrors.length} console errors, ${failedRequests.length} failed requests` +
@@ -509,14 +800,14 @@ async function main() {
       ...(w < 500 ? devices['iPhone 13'].userAgent ? { userAgent: devices['iPhone 13'].userAgent } : {} : {}),
     })
     const sp = await sctx.newPage()
-    for (const [name, route] of [['home', '/'], ['partner', '/partner']]) {
+    for (const [name, route] of [['home', '/'], ['partner', '/partner'], ['products', '/products'], ['factory', '/factory'], ['category', '/products/bra']]) {
       await sp.goto(`${BASE}${route}`, { waitUntil: 'domcontentloaded' })
       await settle(sp)
       await sp.screenshot({ path: path.join(SHOTS, `${name}-${w}.png`), fullPage: true })
     }
     await sctx.close()
   }
-  console.log(`\nscreenshots → qa/shots/{home,partner}-{${WIDTHS.join(',')}}.png`)
+  console.log(`\nscreenshots → qa/shots/{home,partner,products,factory,category}-{${WIDTHS.join(',')}}.png`)
 
   await browser.close()
 

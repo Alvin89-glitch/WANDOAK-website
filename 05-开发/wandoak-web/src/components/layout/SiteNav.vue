@@ -25,6 +25,11 @@ onBeforeUnmount(() => mq?.removeEventListener('change', onMq))
    proportions that reads as ~22px of cap height. */
 const markH = computed(() => (narrow.value ? 17 : 22))
 
+/* A second-level page such as /products/bra is its own route record, so
+   router-link-active never fires on the /products link. Routes declare their
+   owner in meta.navName instead. */
+const isCurrent = (name) => route.name === name || route.meta?.navName === name
+
 const open = ref(false)
 watch(() => route.fullPath, () => { open.value = false })
 watch(open, (v) => {
@@ -46,6 +51,8 @@ watch(open, (v) => {
               :to="{ name: item.name }"
               class="nav__item t-micro"
               active-class="is-active"
+              :class="{ 'is-active': isCurrent(item.name) }"
+              :aria-current="isCurrent(item.name) ? 'page' : undefined"
             >{{ t(item.key) }}</RouterLink>
           </li>
         </ul>
@@ -84,7 +91,12 @@ watch(open, (v) => {
       <nav class="container-a" :aria-label="t('ui.menu')">
         <ul class="drawer__list">
           <li v-for="item in primaryNav" :key="item.name">
-            <RouterLink :to="{ name: item.name }" class="drawer__item t-h2" active-class="is-active">
+            <RouterLink
+              :to="{ name: item.name }"
+              class="drawer__item t-h2"
+              active-class="is-active"
+              :class="{ 'is-active': isCurrent(item.name) }"
+            >
               {{ t(item.key) }}
             </RouterLink>
           </li>

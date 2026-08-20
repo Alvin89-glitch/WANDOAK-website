@@ -1,5 +1,5 @@
 {
-  "base": "http://localhost:5178",
+  "base": "http://localhost:5179",
   "when": null,
   "results": [
     {
@@ -84,23 +84,23 @@
       "id": "A16",
       "label": "overlay text contrast >= 4.5:1",
       "pass": true,
-      "detail": "hero h1 6.50:1 · hero sub 6.82:1 · cta display 10.50:1 · cta lead 11.58:1 — worst hero h1, fg rgb(255, 255, 255) vs worst ground rgb(78,95,120)"
+      "detail": "hero h1 6.50:1 · hero sub 6.82:1 · cta display 10.51:1 · cta lead 11.56:1 — worst hero h1, fg rgb(255, 255, 255) vs worst ground rgb(78,95,120)"
     },
     {
       "id": "A10",
       "label": "locale switch: lang attr, copy swaps, height stable",
       "pass": true,
-      "detail": "lang=zh-CN · cjk=true · height 7249→7203 (0.6%)"
+      "detail": "lang=zh-CN · cjk=true · height 7162→7125 (0.5%)"
     },
     {
       "id": "D1",
       "label": "document height (ALO reference 6435px)",
       "pass": null,
-      "detail": "7249px"
+      "detail": "7162px"
     },
     {
       "id": "R1",
-      "label": "8 routes render + 404 fallback",
+      "label": "11 routes render + 404 fallback",
       "pass": true,
       "detail": "all ok · 404 true"
     },
@@ -121,6 +121,42 @@
       "label": "prefers-reduced-motion: reveals resolved, counters final",
       "pass": true,
       "detail": "9 reveal nodes · 0 still faded · stat \"35,000 m²\""
+    },
+    {
+      "id": "A19",
+      "label": "products + factory hold rhythm, container, type scale, image hygiene",
+      "pass": true,
+      "detail": "products 6 sections · 16 imgs · factory 7 sections · 13 imgs · cat-bra 5 sections · 15 imgs · cat-outer 5 sections · 9 imgs"
+    },
+    {
+      "id": "A20",
+      "label": "inner-page overlay contrast >= 4.5:1",
+      "pass": true,
+      "detail": "products hero h1 10.25:1 · products hero lead 11.43:1 · products cta display 7.48:1 · products cta lead 7.83:1 · factory hero h1 10.68:1 · factory hero lead 12.07:1 · factory cta display 8.70:1 · factory cta lead 10.42:1 · cat-bra hero h1 9.70:1 · cat-bra hero lead 10.20:1 · cat-bra cta display 7.48:1 · cat-bra cta lead 7.83:1 · cat-outer hero h1 18.58:1 · cat-outer hero lead 18.26:1 · cat-outer cta display 7.48:1 · cat-outer cta lead 7.83:1 — worst products cta display, fg rgb(255, 255, 255) vs worst ground rgb(86,85,79)"
+    },
+    {
+      "id": "A21",
+      "label": "reveals survive an instant jump to the foot of the page",
+      "pass": true,
+      "detail": "nothing left faded on 4 pages"
+    },
+    {
+      "id": "A22",
+      "label": "inner hero holds 1300×445.9 and never clips its caption, 320–1440",
+      "pass": true,
+      "detail": "8 routes × 5 widths clean"
+    },
+    {
+      "id": "A23",
+      "label": "the range renders in full, and only MOQ + lead time read as pending",
+      "pass": true,
+      "detail": "bra 7 styles · 14 pending · tops 3 styles · 6 pending · bottoms 5 styles · 10 pending · outer 1 styles · 2 pending · no stock or barcodes on page · 404 on unknown slug · both four-ups link through"
+    },
+    {
+      "id": "A24",
+      "label": "no image is served smaller than the box it renders into",
+      "pass": true,
+      "detail": "all served at or above their painted width on 6 routes"
     },
     {
       "id": "A12",

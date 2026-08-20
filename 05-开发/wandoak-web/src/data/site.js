@@ -9,7 +9,6 @@
    Factory and Work-With-Us must never be buried — trade-show visitors
    come for exactly those two. */
 export const primaryNav = [
-  { name: 'about', key: 'nav.about' },
   { name: 'products', key: 'nav.products' },
   { name: 'factory', key: 'nav.factory' },
   { name: 'partner', key: 'nav.partner' },
@@ -18,7 +17,6 @@ export const primaryNav = [
 
 export const allPages = [
   { name: 'home', key: 'nav.home' },
-  { name: 'about', key: 'nav.about' },
   { name: 'design', key: 'nav.design' },
   { name: 'products', key: 'nav.products' },
   { name: 'factory', key: 'nav.factory' },
@@ -28,7 +26,7 @@ export const allPages = [
 ]
 
 export const footerColumns = [
-  { titleKey: 'footer.colBrand', links: ['about', 'design', 'products'] },
+  { titleKey: 'footer.colBrand', links: ['design', 'products'] },
   { titleKey: 'footer.colCapability', links: ['factory', 'quality'] },
   { titleKey: 'footer.colConnect', links: ['partner', 'contact'] },
 ]
@@ -39,12 +37,29 @@ export const stats = [
   { valueKey: 'home.stats.peopleValue', labelKey: 'home.stats.peopleLabel', to: 500, suffix: '+', prefixCount: true },
 ]
 
+/* The four categories, and the only description of them. `image` is the card
+   crop for a four-up, `hero` the band for the category's own page, and `to`
+   is where a card click lands — the home page's four-up and the products hub
+   both go to the same second-level pages. */
+const category = (id, nameKey) => ({
+  id,
+  slug: id,
+  image: `cat-${id}`,
+  hero: `cat-hero-${id}`,
+  nameKey,
+  titleKey: `home.products.${id}Title`,
+  descKey: `home.products.${id}Desc`,
+  to: { name: 'productCategory', params: { category: id } },
+})
+
 export const categories = [
-  { id: 'bra', image: 'cat-bra', titleKey: 'home.products.braTitle', descKey: 'home.products.braDesc' },
-  { id: 'bottoms', image: 'cat-bottoms', titleKey: 'home.products.bottomsTitle', descKey: 'home.products.bottomsDesc' },
-  { id: 'tops', image: 'cat-tops', titleKey: 'home.products.topsTitle', descKey: 'home.products.topsDesc' },
-  { id: 'outer', image: 'cat-outer', titleKey: 'home.products.outerTitle', descKey: 'home.products.outerDesc' },
+  category('bra', 'products.catBra'),
+  category('bottoms', 'products.catBottoms'),
+  category('tops', 'products.catTops'),
+  category('outer', 'products.catOuter'),
 ]
+
+export const categoryBySlug = (slug) => categories.find((c) => c.slug === slug) ?? null
 
 export const scenarios = [
   { id: 'yoga', image: 'scen-yoga', labelKey: 'products.scen1' },
@@ -105,3 +120,50 @@ export const enquiryTypes = [
 
 /* Which built pages a skeleton page should point visitors at. */
 export const skeletonFallbacks = ['home', 'partner', 'contact']
+
+/* ---------------- factory page ---------------- */
+
+/* The five numbers a sourcing buyer actually writes down. StatsBar animates
+   three of them on the home page; this is the full sheet, address included,
+   so the factory page says something the home page cannot. */
+export const factorySpecs = [
+  { id: 'area', labelKey: 'factory.specAreaLabel', valueKey: 'factory.specAreaValue' },
+  { id: 'people', labelKey: 'factory.specPeopleLabel', valueKey: 'factory.specPeopleValue' },
+  { id: 'capacity', labelKey: 'factory.specCapacityLabel', valueKey: 'factory.specCapacityValue' },
+  { id: 'machines', labelKey: 'factory.specMachinesLabel', valueKey: 'factory.specMachinesValue' },
+  { id: 'founded', labelKey: 'factory.foundedLabel', valueKey: 'factory.foundedValue' },
+]
+
+/* The two construction methods, each shown by the machines that make it. */
+export const makeMethods = [
+  { id: 'cutsew', image: 'cap-cutsew', titleKey: 'factory.cutSewnTitle', descKey: 'factory.cutSewnDesc', coversKey: 'factory.cutSewnCovers' },
+  { id: 'seamless', image: 'cap-seamless', titleKey: 'factory.seamlessTitle', descKey: 'factory.seamlessDesc', coversKey: 'factory.seamlessCovers' },
+]
+
+/* Read left to right in process order: cut → set → sort → finish. */
+export const floorStations = [
+  { id: 'cut', image: 'fac-cut', labelKey: 'factory.stationCut' },
+  { id: 'setting', image: 'fac-setting', labelKey: 'factory.stationSetting' },
+  { id: 'warehouse', image: 'fac-warehouse', labelKey: 'factory.stationWarehouse' },
+  { id: 'finishing', image: 'fac-finishing', labelKey: 'factory.stationFinishing' },
+]
+
+export const floorPillars = [
+  { id: 'efficiency', titleKey: 'factory.opsEfficiencyTitle', descKey: 'factory.opsEfficiencyDesc' },
+  { id: 'quality', titleKey: 'factory.opsQualityTitle', descKey: 'factory.opsQualityDesc' },
+]
+
+/* ---------------- products page ---------------- */
+
+/* Five studio cut-outs, ordered light to dark so the row reads as a range
+   rather than five unrelated photographs. */
+export const productLine = [
+  { id: 'tee', image: 'pl-tee', titleKey: 'products.line.teeTitle', descKey: 'products.line.teeDesc' },
+  { id: 'sage', image: 'pl-sage', titleKey: 'products.line.sageTitle', descKey: 'products.line.sageDesc' },
+  { id: 'short', image: 'pl-short', titleKey: 'products.line.shortTitle', descKey: 'products.line.shortDesc' },
+  { id: 'crop', image: 'pl-crop', titleKey: 'products.line.cropTitle', descKey: 'products.line.cropDesc' },
+  { id: 'black', image: 'pl-black', titleKey: 'products.line.blackTitle', descKey: 'products.line.blackDesc' },
+]
+
+/* ---------------- product categories (second level) ---------------- */
+

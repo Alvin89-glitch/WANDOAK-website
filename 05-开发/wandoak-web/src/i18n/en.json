@@ -8,7 +8,6 @@
   },
   "nav": {
     "home": "Home",
-    "about": "Our Story",
     "design": "Design & R&D",
     "products": "Products",
     "factory": "Our Factory",
@@ -21,7 +20,6 @@
   "btn": {
     "enquire": "Request a Meeting",
     "exploreRange": "Explore the Range",
-    "readStory": "Read the full story",
     "seeDesign": "See how we design",
     "allProducts": "View all products",
     "tourFactory": "Tour the factory",
@@ -45,7 +43,8 @@
     "who": {
       "eyebrow": "Who we are",
       "h2": "We didn't start from a sketch. We started from 20,000 bodies.",
-      "body": "WANDOAK was founded in 2012 as a sportswear brand built specifically around the healthy, active lives of urban women.\n\nThe brand didn't begin with a design drawing. At the 2012 London Olympics, a female boxer from Ningbo had to stop mid-match when her bra strap came loose. That moment convinced our founder to build a sports bra that genuinely fits — and genuinely holds — the bodies of Chinese women.\n\nWhat followed was a study of more than 20,000 Chinese women's body shapes, 3D-scanned, analysed and distilled into a single sports bra engineered for how our customers are actually built."
+      "body": "WANDOAK was founded in 2012 as a sportswear brand built specifically around the healthy, active lives of urban women.\n\nThe brand didn't begin with a design drawing. At the 2012 London Olympics, a female boxer from Ningbo had to stop mid-match when her bra strap came loose. That moment convinced our founder to build a sports bra that genuinely fits — and genuinely holds — the bodies of Chinese women.\n\nWhat followed was a study of more than 20,000 Chinese women's body shapes, 3D-scanned, analysed and distilled into a single sports bra engineered for how our customers are actually built.",
+      "tag": "Our Story"
     },
     "design": {
       "eyebrow": "Design philosophy",
@@ -79,28 +78,6 @@
       "item4Title": "International standards",
       "item4Desc": "GRS · BSCI · OEKO-TEX® Standard 100 · HIGG · QIMA"
     }
-  },
-  "about": {
-    "heroH1": "The strap that started a brand",
-    "originH2": "London, 2012.",
-    "originBody": "A female boxer from Ningbo had to pause her match because her bra strap slipped off her shoulder.\n\nThat moment gave our founder an idea: Chinese women athletes deserve a professional sports bra developed for their own bodies.\n\nWANDOAK was founded the same year.",
-    "nameH2": "Where the name comes from",
-    "nameBody": "WANDOAK = WAND + OAK\n\nOAK — the oak tree: resilient, unyielding, built to withstand.\nWAND — both a young branch and a magic wand. The young branch stands for a woman's inner energy; the wand for the energy she projects outward.\n\nDraw on the strength within, and reshape the body through movement. A woman's beauty lies in letting the boundless vitality she already carries show itself naturally.",
-    "believeH2": "What we believe",
-    "believeQuote": "We move in pursuit of a youth that never compromises.\nWe stay healthy so we can meet the world unhurried.\nEnjoy life. Love movement.",
-    "philosophyLabel": "Brand philosophy",
-    "philosophyValue": "To give Chinese women a sporting experience that is professional, healthy, comfortable and made to a high standard.",
-    "sloganLabel": "Brand slogan",
-    "sloganValue": "Serious support for serious movement.",
-    "keywordsLabel": "Four words we hold to",
-    "keywordsValue": "Professional · Healthy · Comfortable · Sustainable",
-    "audienceH2": "Who we make it for",
-    "audienceBody1": "Our customer is financially independent, warm, open, sociable and forward-facing. She looks for new experiences, keeps herself active, and is open-minded about what she tries. She wants health and quality of life in the fuller sense, holds herself to a standard, and is disciplined about it.",
-    "audienceBody2": "What she asks for is specific: it has to be wearable, it has to work, and it has to look good. She has real expectations of how a fabric and a pattern perform. And she cares about three things — that it doesn't age her, that it's genuinely technical, and that it works across more than one occasion.",
-    "audienceBody3": "But movement has no age limit, and it doesn't care what shape you're in today. We build across age groups and body proportions.",
-    "sloganInternal": "Fast. Passionate. Accountable.",
-    "vision": "To lead the sports underwear industry.",
-    "mission": "Built for the health and movement of Chinese women."
   },
   "design": {
     "heroH1": "How we think before we cut",
@@ -148,10 +125,152 @@
     "scen3": "Strength & Cross-Training",
     "scen4": "Urban Everyday",
     "compressionH3": "Compression",
-    "compressionBody": "Alongside our core sports underwear line, compression leggings are our second product line — lifting, shaping and holding, and consistently one of our best-received ranges."
+    "compressionBody": "Alongside our core sports underwear line, compression leggings are our second product line — lifting, shaping and holding, and consistently one of our best-received ranges.",
+    "line": {
+      "h2": "The range, piece by piece",
+      "lead": "Five representative pieces from the current range. Every one is developed and made on our own floor.",
+      "blackTitle": "Core Bra & Full-Length Legging",
+      "blackDesc": "Five-way support in matte black, cut with a high-rise waistband that stays put through a full session.",
+      "sageTitle": "Support Bra & Legging Set",
+      "sageDesc": "A matched set in sage. Built for yoga and balance work, where a garment has to move and then hold still.",
+      "teeTitle": "Everyday Tee & Legging",
+      "teeDesc": "Technical fabric in a cut that reads as ordinary clothing — the piece that goes from the studio to the street.",
+      "cropTitle": "Crop Tee & High-Rise Legging",
+      "cropDesc": "A cropped top over a high waistband, so the midsection stays covered through overhead movement.",
+      "shortTitle": "Run Bra & Short",
+      "shortDesc": "Higher-impact support with a lightweight short, for running and cardio."
+    },
+    "handfeelH3": "Fabric first, pattern second",
+    "handfeelBody": "Every piece in the range starts from the fabric, not the sketch. Our own sourcing and development teams select for hand, recovery and drape before a pattern is cut.\n\nIt is why two garments that look alike on a rail can wear completely differently on the body.",
+    "ctaH2": "Designed and made in the same building.",
+    "cat": {
+      "noticeTitle": "Two fields still open",
+      "noticeBody": "Every style below comes from the current range sheet — name, fabric composition, size range and colourways are as supplied. Minimum order quantity and lead time are the two things the sheet does not answer yet, so they are the only figures marked pending. Per-SKU stock and barcodes are held back on purpose: stock moves daily and would be wrong the day it shipped.",
+      "stylesH2": "Styles in this category",
+      "stylesLead": "Lead colourway shown. Full colour list is on each card.",
+      "pending": "On request",
+      "specFabric": "Fabric",
+      "specWeight": "Weight",
+      "specSizes": "Size range",
+      "specColours": "Colourways",
+      "specMoq": "MOQ",
+      "specLead": "Lead time",
+      "backToHub": "All categories",
+      "hubH2": "Browse by category",
+      "hubLead": "Four categories, each with its own page. Product records are not entered yet — the pages are live so you can see the structure.",
+      "genderWomen": "Women's",
+      "genderMen": "Men's",
+      "useYoga": "Yoga & balance",
+      "useStrength": "Strength training",
+      "useTennis": "Tennis",
+      "useRunning": "Running & cardio",
+      "useMarathon": "Marathon",
+      "patented": "Patented cup",
+      "recycled": "Recycled fabric",
+      "countOne": "1 style",
+      "countMany": "{n} styles",
+      "descPending": "No description supplied for this style yet."
+    },
+    "styles": {
+      "W2002543": {
+        "name": "Women's Sports Vest",
+        "desc": "An all-day bra cut in one piece with no seam lines through the body. A three-layer back panel and a full-width bonded hem carry the support; the removable pads are thinner at the top and thicker at the base, so the shape holds.",
+        "fabric": "Shell 84% polyester / 16% elastane · Lining 48.9% nylon / 51.1% elastane",
+        "colours": "Black · Nude · Light lilac"
+      },
+      "W2102745": {
+        "name": "Women's Front-Zip Perforated Vest",
+        "desc": "A front-zip vest with an auto-locking slider and an inner hook, so it opens without pulling over the head. Laser perforation sits where sweat collects across the chest and back; the racer back leaves the shoulder blades free.",
+        "fabric": "Face 76% nylon / 24% elastane · Lining 86% polyester / 14% elastane · Cup lining 100% polyester · Mesh 86% polyester / 14% elastane",
+        "colours": "Obsidian black · Ocean blue · Avocado green · Cloud beige · Taro purple"
+      },
+      "W2102781": {
+        "name": "Women's Recycled-Fabric Vest",
+        "desc": "A longline bra in recycled polyester-elastane, cut with a V neck front and back. A 3cm bonded inner band gives medium support, and the pads come out for washing.",
+        "fabric": "Shell 84% polyester / 16% elastane · Lining 87% nylon / 13% elastane",
+        "colours": "Obsidian black · Crayon brown"
+      },
+      "W2302511": {
+        "name": "Women's Outerwear-Ready Vest",
+        "desc": "High support, and cut to be worn on its own. A double-layer back spreads the load, the armhole curves inward so the arm does not catch, and the back carries a reflective print for night running.",
+        "fabric": "Face 65% nylon / 35% elastane · Mesh 86% polyester / 14% elastane",
+        "colours": "Pearl white · Bright lemon · Lavender · Deep teal"
+      },
+      "W2302719": {
+        "name": "Women's Half-Zip Vest",
+        "desc": "A contrast half-zip with a full mesh lining that clears sweat fast. Reflective taping front and back, and a back logo that shifts colour under UV.",
+        "fabric": "Face 78% polyester / 22% elastane · Mesh 87% polyester / 13% elastane · Cup lining 100% polyester",
+        "colours": "Pale lilac · Quiet blue · Cloud beige · Obsidian black"
+      },
+      "W2302736": {
+        "name": "Women's Front-Zip Moulded-Cup Vest",
+        "desc": "High support in a light build, using the patented rabbit-ear moulded cup — ultra-thin, no show-through, and adjustable in position for different shapes. YKK auto-locking zip; princess seams through the front panel lift without compressing.",
+        "fabric": "Face 1 82% nylon / 18% elastane · Face 2 78% polyester / 22% elastane · Mesh 87% polyester / 13% elastane · Lining 100% polyester",
+        "colours": "Obsidian black · Peach pink · Quiet blue · Milk brown"
+      },
+      "W2302740": {
+        "name": "Women's Moulded-Cup Vest",
+        "desc": "The lightest build in the range, on the same patented rabbit-ear cup. Mesh panelling across the chest, a small pocket at the centre front for a key, and a four-row three-hook adjuster at the back.",
+        "fabric": "Face 76% nylon / 24% elastane · Mesh 87% polyester / 13% elastane · Lining 100% polyester",
+        "colours": "Obsidian black · Pearl white · Duck-egg green"
+      },
+      "W2306505": {
+        "name": "Women's Fitted Running Tee",
+        "desc": "A quick-dry knit whose fine cross-rib mesh structure moves sweat out fast. Panel lines shape the waist, the curved hem runs shorter at the front, and neck, cuff and hem are bonded rather than stitched.",
+        "fabric": "92% polyester / 8% elastane",
+        "colours": "China red · Pearl white · Dawn grey · Magenta · Sunflower gold · Emerald"
+      },
+      "W2107742": {
+        "name": "Women's Sports Legging",
+        "desc": "A high-gauge brushed nylon-elastane double knit, finished to a cotton-like hand. High through the waist, gusseted at the crotch for range, with an external drawcord and two side pockets.",
+        "fabric": "76% nylon / 24% elastane",
+        "colours": "Ocean blue · Avocado green · Obsidian black · Taro purple"
+      },
+      "W2304567": {
+        "name": "Men's Fitted Running Tee",
+        "desc": "Built for training and race pace in the same quick-dry knit as the women’s tee. Ergonomic hem, shorter at the front, with side splits; neck, cuff and hem are bonded to cut distraction.",
+        "fabric": "92% polyester / 8% elastane",
+        "colours": "China red · Pearl white · Dawn grey · Magenta · Sunflower gold · Emerald"
+      },
+      "W2304570": {
+        "name": "Men's Fitted Running Vest",
+        "desc": "The tee’s companion tank in the same knit, to wear alone or layered. A racer back frees the shoulder blades and every seam is bonded.",
+        "fabric": "92% polyester / 8% elastane",
+        "colours": "China red · Pearl white · Sunflower gold · Magenta · Emerald"
+      },
+      "W2306738": {
+        "name": "Men's Stand-Collar Jacket",
+        "fabric": "95% polyester / 5% elastane",
+        "colours": "Gull blue · Obsidian black"
+      },
+      "W2307555": {
+        "name": "Men's Split-Hem Marathon Short",
+        "desc": "A race short: a supportive inner brief under a light woven outer, cut short and clean for speed. Five continuous stretch mesh pockets run right around the waistband and hold up to eight gels, a phone and a soft flask.",
+        "fabric": "Face 1 91% polyester / 9% elastane · Face 2 80% nylon / 20% elastane · Lining 60% nylon / 40% elastane",
+        "colours": "Rape green · Mulberry purple · Magenta · China red · Obsidian black"
+      },
+      "W2307571": {
+        "name": "Men's Compression Short",
+        "desc": "A five-inch compression short, 3D cut to follow the leg and hold the muscle through distance. A continuous waistband pocket with three openings takes a phone, four gels, tissues and keys; the gusset is built in a soft piqué.",
+        "fabric": "Face 78% polyester / 22% elastane · Mesh 87% polyester / 13% elastane",
+        "colours": "Nova blue · Wrought-iron grey · Sea teal"
+      },
+      "W2307573": {
+        "name": "Men's Compression Running Short",
+        "desc": "Multi-panel 3D cut following the line of the muscle. A jacquard open-work waistband lets air through, the back pocket is mesh, and the inner brief is bonded rather than stitched.",
+        "fabric": "Face 1 80% nylon / 20% elastane · Face 2 85% polyester / 15% elastane · Mesh 87% polyester / 13% elastane · Lining 60% nylon / 40% elastane",
+        "colours": "China red · Mulberry purple · Obsidian black"
+      },
+      "W2307578": {
+        "name": "Men's Running Short",
+        "desc": "A warp-knitted rib structure lets air through and dries faster, in a nylon-elastane with a cotton handle. Hidden back pocket, gusseted crotch, and a bonded seamless inner brief.",
+        "fabric": "Face 87% nylon / 13% elastane · Lining 60% nylon / 40% elastane",
+        "colours": "Washed blue · Sage · China red · Obsidian black"
+      }
+    }
   },
   "factory": {
-    "heroH1": "Our own floor. Our own machines. Our own standards.",
+    "heroH1": "Our own floor.\nOur own machines.\nOur own standards.",
     "heroSub": "A leading ODM manufacturer in Eastern China, with 20+ years focused on sportswear.",
     "companyH2": "Company overview",
     "companyName": "Ningbo K&A Technology Co., Ltd.",
@@ -188,7 +307,12 @@
     "opsEfficiencyDesc": "Automated systems reduce manual labour, significantly accelerating the production cycle.",
     "opsQualityTitle": "Superior quality",
     "opsQualityDesc": "Precision control ensures every stitch meets strict international standards.",
-    "opsWarehouse": "Warehouse management — standardised process · safe protection · clean environment"
+    "opsWarehouse": "Warehouse management — standardised process · safe protection · clean environment",
+    "ctaH2": "Come and walk the floor.",
+    "stationCut": "Computerised cutting",
+    "stationSetting": "Heat setting",
+    "stationWarehouse": "Sorting & packing",
+    "stationFinishing": "Pressing & final inspection"
   },
   "quality": {
     "heroH1": "Nothing leaves this building unchecked",

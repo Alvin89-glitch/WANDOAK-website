@@ -35,7 +35,7 @@ const { t } = useI18n()
     <EditorialTwoUp
       image="ed-clients"
       :title="t('partner.clientsH2')"
-      :body="`${t('partner.clientsBody')}\n\n${t('factory.rdBody1')}\n\n${t('factory.rdBody2')}`"
+      :body="t('partner.clientsBody')"
       :tag="t('footer.creed')"
       flip
     />

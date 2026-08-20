@@ -10,7 +10,7 @@
     "images": "node scripts/build-images.mjs",
     "font": "node scripts/build-cjk-font.mjs",
     "verify": "node scripts/verify.mjs",
-    "qa": "npm run build && (npx vite preview --port 5179 --strictPort & sleep 3) && node scripts/verify.mjs http://localhost:5179"
+    "qa": "node scripts/qa.mjs"
   },
   "dependencies": {
     "@fontsource-variable/figtree": "^5.3.0",

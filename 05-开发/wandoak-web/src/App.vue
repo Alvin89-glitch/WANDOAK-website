@@ -10,14 +10,18 @@ const { t, locale } = useI18n()
 const route = useRoute()
 
 function syncHead() {
-  const key = route.meta?.titleKey
+  // A dynamic route resolves its own key from the params.
+  const metaKey = route.meta?.titleKey
+  const key = typeof metaKey === 'function' ? metaKey(route) : metaKey
   const name = t('site.name')
   const title = route.meta?.bare
     ? t('site.metaTitle')
     : key
       ? `${t(key)} — ${name}`
       : name
-  document.title = title
+  // Several headlines carry explicit newlines for the layout; a <title> that
+  // contains them renders with the breaks intact in the tab and in search.
+  document.title = title.replace(/\s+/g, ' ').trim()
 
   let desc = document.querySelector('meta[name="description"]')
   if (!desc) {
