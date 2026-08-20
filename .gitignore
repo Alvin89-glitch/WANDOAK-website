@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+
+# 依赖与构建产物
+node_modules/
+dist/
+.env
+.env.local
+
+# QA 截图（由 npm run qa 生成，可重跑）
+05-开发/wandoak-web/qa/shots/

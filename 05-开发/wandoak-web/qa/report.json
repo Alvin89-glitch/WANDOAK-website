@@ -1,0 +1,132 @@
+{
+  "base": "http://localhost:5178",
+  "when": null,
+  "results": [
+    {
+      "id": "A2a",
+      "label": "every reveal fired after a full scroll",
+      "pass": true,
+      "detail": "0 sections never revealed"
+    },
+    {
+      "id": "A1",
+      "label": "container-a content width = 1350",
+      "pass": true,
+      "detail": "1350.00px"
+    },
+    {
+      "id": "A2",
+      "label": "section rhythm = 70.00px",
+      "pass": true,
+      "detail": "10 gaps: 70"
+    },
+    {
+      "id": "A3",
+      "label": "4-up = 313.5 wide, 32 gap, 1350 total",
+      "pass": true,
+      "detail": "w 313.5 · gap 32 · total 1350"
+    },
+    {
+      "id": "A4",
+      "label": "nav sticky top:0 z:200 h=83.5 white",
+      "pass": true,
+      "detail": "83.5px · sticky · top 0px · z 200 · rgb(255, 255, 255)"
+    },
+    {
+      "id": "A5",
+      "label": "hero full-bleed 1440 × 575.25",
+      "pass": true,
+      "detail": "1440 × 575.25"
+    },
+    {
+      "id": "A6",
+      "label": "footer #000, pad-top 28 / pad-bottom 64",
+      "pass": true,
+      "detail": "rgb(0, 0, 0) · 28px / 64px"
+    },
+    {
+      "id": "A7",
+      "label": "font sizes confined to the scale",
+      "pass": true,
+      "detail": "60/44/32/18/16/14/12"
+    },
+    {
+      "id": "A9",
+      "label": "no horizontal scroll 320–1920",
+      "pass": true,
+      "detail": "clean at 9 widths"
+    },
+    {
+      "id": "A8",
+      "label": "mobile: nav 57px, hero 1:1",
+      "pass": true,
+      "detail": "nav 57px · hero 390×390 · wide hidden true"
+    },
+    {
+      "id": "A18",
+      "label": "no overlay caption spills above its section",
+      "pass": true,
+      "detail": "overflow px: -390, -390, -24"
+    },
+    {
+      "id": "A13",
+      "label": "images: dimensions, alt, hero priority",
+      "pass": true,
+      "detail": "26 imgs · missing dims 0 · missing alt 0 · broken 0 · hero fetchpriority high"
+    },
+    {
+      "id": "A17",
+      "label": "stat figures settle on the exact published values",
+      "pass": true,
+      "detail": "35,000 m² · 600,000 pcs · 500+"
+    },
+    {
+      "id": "A16",
+      "label": "overlay text contrast >= 4.5:1",
+      "pass": true,
+      "detail": "hero h1 6.50:1 · hero sub 6.82:1 · cta display 10.50:1 · cta lead 11.58:1 — worst hero h1, fg rgb(255, 255, 255) vs worst ground rgb(78,95,120)"
+    },
+    {
+      "id": "A10",
+      "label": "locale switch: lang attr, copy swaps, height stable",
+      "pass": true,
+      "detail": "lang=zh-CN · cjk=true · height 7249→7203 (0.6%)"
+    },
+    {
+      "id": "D1",
+      "label": "document height (ALO reference 6435px)",
+      "pass": null,
+      "detail": "7249px"
+    },
+    {
+      "id": "R1",
+      "label": "8 routes render + 404 fallback",
+      "pass": true,
+      "detail": "all ok · 404 true"
+    },
+    {
+      "id": "A15",
+      "label": "empty submit blocks with field errors",
+      "pass": true,
+      "detail": "4 field errors shown"
+    },
+    {
+      "id": "A15b",
+      "label": "invalid email is rejected",
+      "pass": true,
+      "detail": "1 email error"
+    },
+    {
+      "id": "A14",
+      "label": "prefers-reduced-motion: reveals resolved, counters final",
+      "pass": true,
+      "detail": "9 reveal nodes · 0 still faded · stat \"35,000 m²\""
+    },
+    {
+      "id": "A12",
+      "label": "console errors / failed requests",
+      "pass": true,
+      "detail": "0 console errors, 0 failed requests"
+    }
+  ]
+}

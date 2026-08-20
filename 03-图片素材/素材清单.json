@@ -1,0 +1,785 @@
+[
+ {
+  "file": "kna_p01_0.jpg",
+  "sub": "可用大图",
+  "w": 1133,
+  "h": 1612,
+  "kb": 179,
+  "src": "KNA Profile 2026 V4.pdf",
+  "page": 1
+ },
+ {
+  "file": "kna_p01_1.jpg",
+  "sub": "小图与图标",
+  "w": 1693,
+  "h": 496,
+  "kb": 79,
+  "src": "KNA Profile 2026 V4.pdf",
+  "page": 1
+ },
+ {
+  "file": "kna_p02_0.jpg",
+  "sub": "可用大图",
+  "w": 1332,
+  "h": 1700,
+  "kb": 90,
+  "src": "KNA Profile 2026 V4.pdf",
+  "page": 2
+ },
+ {
+  "file": "kna_p02_1.jpg",
+  "sub": "小图与图标",
+  "w": 1693,
+  "h": 496,
+  "kb": 79,
+  "src": "KNA Profile 2026 V4.pdf",
+  "page": 2
+ },
+ {
+  "file": "kna_p03_0.jpg",
+  "sub": "可用大图",
+  "w": 2686,
+  "h": 2652,
+  "kb": 812,
+  "src": "KNA Profile 2026 V4.pdf",
+  "page": 3
+ },
+ {
+  "file": "kna_p03_1.jpg",
+  "sub": "小图与图标",
+  "w": 1693,
+  "h": 496,
+  "kb": 79,
+  "src": "KNA Profile 2026 V4.pdf",
+  "page": 3
+ },
+ {
+  "file": "kna_p04_6.jpg",
+  "sub": "小图与图标",
+  "w": 1693,
+  "h": 496,
+  "kb": 79,
+  "src": "KNA Profile 2026 V4.pdf",
+  "page": 4
+ },
+ {
+  "file": "kna_p05_12.jpg",
+  "sub": "小图与图标",
+  "w": 1693,
+  "h": 496,
+  "kb": 79,
+  "src": "KNA Profile 2026 V4.pdf",
+  "page": 5
+ },
+ {
+  "file": "kna_p05_7.jpg",
+  "sub": "可用大图",
+  "w": 1406,
+  "h": 1133,
+  "kb": 185,
+  "src": "KNA Profile 2026 V4.pdf",
+  "page": 5
+ },
+ {
+  "file": "kna_p06_8.jpg",
+  "sub": "小图与图标",
+  "w": 1693,
+  "h": 496,
+  "kb": 79,
+  "src": "KNA Profile 2026 V4.pdf",
+  "page": 6
+ },
+ {
+  "file": "kna_p07_10.jpg",
+  "sub": "小图与图标",
+  "w": 226,
+  "h": 417,
+  "kb": 26,
+  "src": "KNA Profile 2026 V4.pdf",
+  "page": 7
+ },
+ {
+  "file": "kna_p07_11.jpg",
+  "sub": "小图与图标",
+  "w": 182,
+  "h": 376,
+  "kb": 18,
+  "src": "KNA Profile 2026 V4.pdf",
+  "page": 7
+ },
+ {
+  "file": "kna_p07_12.jpg",
+  "sub": "小图与图标",
+  "w": 221,
+  "h": 437,
+  "kb": 19,
+  "src": "KNA Profile 2026 V4.pdf",
+  "page": 7
+ },
+ {
+  "file": "kna_p07_7.jpg",
+  "sub": "小图与图标",
+  "w": 1693,
+  "h": 496,
+  "kb": 79,
+  "src": "KNA Profile 2026 V4.pdf",
+  "page": 7
+ },
+ {
+  "file": "kna_p08_0.jpg",
+  "sub": "小图与图标",
+  "w": 231,
+  "h": 376,
+  "kb": 14,
+  "src": "KNA Profile 2026 V4.pdf",
+  "page": 8
+ },
+ {
+  "file": "kna_p08_3.jpg",
+  "sub": "小图与图标",
+  "w": 244,
+  "h": 375,
+  "kb": 15,
+  "src": "KNA Profile 2026 V4.pdf",
+  "page": 8
+ },
+ {
+  "file": "kna_p08_4.jpg",
+  "sub": "小图与图标",
+  "w": 192,
+  "h": 479,
+  "kb": 18,
+  "src": "KNA Profile 2026 V4.pdf",
+  "page": 8
+ },
+ {
+  "file": "kna_p08_7.jpg",
+  "sub": "小图与图标",
+  "w": 1693,
+  "h": 496,
+  "kb": 79,
+  "src": "KNA Profile 2026 V4.pdf",
+  "page": 8
+ },
+ {
+  "file": "kna_p09_8.jpg",
+  "sub": "小图与图标",
+  "w": 1693,
+  "h": 496,
+  "kb": 79,
+  "src": "KNA Profile 2026 V4.pdf",
+  "page": 9
+ },
+ {
+  "file": "kna_p10_10.jpg",
+  "sub": "小图与图标",
+  "w": 1693,
+  "h": 496,
+  "kb": 79,
+  "src": "KNA Profile 2026 V4.pdf",
+  "page": 10
+ },
+ {
+  "file": "kna_p10_8.jpg",
+  "sub": "小图与图标",
+  "w": 189,
+  "h": 360,
+  "kb": 14,
+  "src": "KNA Profile 2026 V4.pdf",
+  "page": 10
+ },
+ {
+  "file": "kna_p11_4.jpg",
+  "sub": "可用大图",
+  "w": 586,
+  "h": 759,
+  "kb": 51,
+  "src": "KNA Profile 2026 V4.pdf",
+  "page": 11
+ },
+ {
+  "file": "kna_p11_5.jpg",
+  "sub": "小图与图标",
+  "w": 457,
+  "h": 397,
+  "kb": 31,
+  "src": "KNA Profile 2026 V4.pdf",
+  "page": 11
+ },
+ {
+  "file": "kna_p11_6.jpg",
+  "sub": "可用大图",
+  "w": 800,
+  "h": 749,
+  "kb": 68,
+  "src": "KNA Profile 2026 V4.pdf",
+  "page": 11
+ },
+ {
+  "file": "kna_p11_7.jpg",
+  "sub": "小图与图标",
+  "w": 1693,
+  "h": 496,
+  "kb": 79,
+  "src": "KNA Profile 2026 V4.pdf",
+  "page": 11
+ },
+ {
+  "file": "kna_p12_0.jpg",
+  "sub": "可用大图",
+  "w": 1666,
+  "h": 2221,
+  "kb": 272,
+  "src": "KNA Profile 2026 V4.pdf",
+  "page": 12
+ },
+ {
+  "file": "kna_p12_1.jpg",
+  "sub": "可用大图",
+  "w": 1643,
+  "h": 2200,
+  "kb": 765,
+  "src": "KNA Profile 2026 V4.pdf",
+  "page": 12
+ },
+ {
+  "file": "kna_p12_2.jpg",
+  "sub": "可用大图",
+  "w": 1319,
+  "h": 1120,
+  "kb": 97,
+  "src": "KNA Profile 2026 V4.pdf",
+  "page": 12
+ },
+ {
+  "file": "kna_p12_3.jpg",
+  "sub": "小图与图标",
+  "w": 1693,
+  "h": 496,
+  "kb": 79,
+  "src": "KNA Profile 2026 V4.pdf",
+  "page": 12
+ },
+ {
+  "file": "kna_p13_0.jpg",
+  "sub": "小图与图标",
+  "w": 1187,
+  "h": 448,
+  "kb": 90,
+  "src": "KNA Profile 2026 V4.pdf",
+  "page": 13
+ },
+ {
+  "file": "kna_p13_1.jpg",
+  "sub": "小图与图标",
+  "w": 1693,
+  "h": 496,
+  "kb": 79,
+  "src": "KNA Profile 2026 V4.pdf",
+  "page": 13
+ },
+ {
+  "file": "kna_p14_4.jpg",
+  "sub": "可用大图",
+  "w": 1381,
+  "h": 841,
+  "kb": 252,
+  "src": "KNA Profile 2026 V4.pdf",
+  "page": 14
+ },
+ {
+  "file": "kna_p14_5.jpg",
+  "sub": "小图与图标",
+  "w": 1693,
+  "h": 496,
+  "kb": 79,
+  "src": "KNA Profile 2026 V4.pdf",
+  "page": 14
+ },
+ {
+  "file": "kna_p15_0.jpg",
+  "sub": "可用大图",
+  "w": 957,
+  "h": 649,
+  "kb": 182,
+  "src": "KNA Profile 2026 V4.pdf",
+  "page": 15
+ },
+ {
+  "file": "kna_p15_1.jpg",
+  "sub": "可用大图",
+  "w": 951,
+  "h": 645,
+  "kb": 116,
+  "src": "KNA Profile 2026 V4.pdf",
+  "page": 15
+ },
+ {
+  "file": "kna_p15_2.jpg",
+  "sub": "可用大图",
+  "w": 1019,
+  "h": 649,
+  "kb": 107,
+  "src": "KNA Profile 2026 V4.pdf",
+  "page": 15
+ },
+ {
+  "file": "kna_p15_3.jpg",
+  "sub": "可用大图",
+  "w": 1038,
+  "h": 649,
+  "kb": 226,
+  "src": "KNA Profile 2026 V4.pdf",
+  "page": 15
+ },
+ {
+  "file": "kna_p15_4.jpg",
+  "sub": "小图与图标",
+  "w": 1693,
+  "h": 496,
+  "kb": 79,
+  "src": "KNA Profile 2026 V4.pdf",
+  "page": 15
+ },
+ {
+  "file": "kna_p16_1.jpg",
+  "sub": "可用大图",
+  "w": 2309,
+  "h": 1539,
+  "kb": 441,
+  "src": "KNA Profile 2026 V4.pdf",
+  "page": 16
+ },
+ {
+  "file": "kna_p16_3.jpg",
+  "sub": "小图与图标",
+  "w": 1693,
+  "h": 496,
+  "kb": 79,
+  "src": "KNA Profile 2026 V4.pdf",
+  "page": 16
+ },
+ {
+  "file": "kna_p17_4.jpg",
+  "sub": "可用大图",
+  "w": 1373,
+  "h": 925,
+  "kb": 237,
+  "src": "KNA Profile 2026 V4.pdf",
+  "page": 17
+ },
+ {
+  "file": "kna_p17_5.jpg",
+  "sub": "小图与图标",
+  "w": 1693,
+  "h": 496,
+  "kb": 79,
+  "src": "KNA Profile 2026 V4.pdf",
+  "page": 17
+ },
+ {
+  "file": "kna_p18_0.jpg",
+  "sub": "可用大图",
+  "w": 888,
+  "h": 1173,
+  "kb": 172,
+  "src": "KNA Profile 2026 V4.pdf",
+  "page": 18
+ },
+ {
+  "file": "kna_p18_1.jpg",
+  "sub": "可用大图",
+  "w": 1041,
+  "h": 1173,
+  "kb": 167,
+  "src": "KNA Profile 2026 V4.pdf",
+  "page": 18
+ },
+ {
+  "file": "kna_p18_2.jpg",
+  "sub": "小图与图标",
+  "w": 1693,
+  "h": 496,
+  "kb": 79,
+  "src": "KNA Profile 2026 V4.pdf",
+  "page": 18
+ },
+ {
+  "file": "kna_p19_11.jpg",
+  "sub": "小图与图标",
+  "w": 1693,
+  "h": 496,
+  "kb": 79,
+  "src": "KNA Profile 2026 V4.pdf",
+  "page": 19
+ },
+ {
+  "file": "kna_p20_0.jpg",
+  "sub": "可用大图",
+  "w": 1133,
+  "h": 1700,
+  "kb": 115,
+  "src": "KNA Profile 2026 V4.pdf",
+  "page": 20
+ },
+ {
+  "file": "kna_p20_1.jpg",
+  "sub": "小图与图标",
+  "w": 1693,
+  "h": 496,
+  "kb": 79,
+  "src": "KNA Profile 2026 V4.pdf",
+  "page": 20
+ },
+ {
+  "file": "wandoak_p01_0.jpg",
+  "sub": "可用大图",
+  "w": 1688,
+  "h": 1125,
+  "kb": 257,
+  "src": "WANDOAK品牌介绍2.0.pdf",
+  "page": 1
+ },
+ {
+  "file": "wandoak_p02_0.jpg",
+  "sub": "可用大图",
+  "w": 4388,
+  "h": 6582,
+  "kb": 2580,
+  "src": "WANDOAK品牌介绍2.0.pdf",
+  "page": 2
+ },
+ {
+  "file": "wandoak_p02_1.jpg",
+  "sub": "小图与图标",
+  "w": 1280,
+  "h": 292,
+  "kb": 59,
+  "src": "WANDOAK品牌介绍2.0.pdf",
+  "page": 2
+ },
+ {
+  "file": "wandoak_p03_0.jpg",
+  "sub": "小图与图标",
+  "w": 1280,
+  "h": 292,
+  "kb": 59,
+  "src": "WANDOAK品牌介绍2.0.pdf",
+  "page": 3
+ },
+ {
+  "file": "wandoak_p03_1.jpg",
+  "sub": "可用大图",
+  "w": 4480,
+  "h": 6720,
+  "kb": 3071,
+  "src": "WANDOAK品牌介绍2.0.pdf",
+  "page": 3
+ },
+ {
+  "file": "wandoak_p05_0.jpg",
+  "sub": "可用大图",
+  "w": 4480,
+  "h": 6720,
+  "kb": 3994,
+  "src": "WANDOAK品牌介绍2.0.pdf",
+  "page": 5
+ },
+ {
+  "file": "wandoak_p06_0.jpg",
+  "sub": "可用大图",
+  "w": 3000,
+  "h": 4500,
+  "kb": 1425,
+  "src": "WANDOAK品牌介绍2.0.pdf",
+  "page": 6
+ },
+ {
+  "file": "wandoak_p07_0.jpg",
+  "sub": "可用大图",
+  "w": 4480,
+  "h": 6720,
+  "kb": 3093,
+  "src": "WANDOAK品牌介绍2.0.pdf",
+  "page": 7
+ },
+ {
+  "file": "wandoak_p07_1.jpg",
+  "sub": "可用大图",
+  "w": 4380,
+  "h": 6570,
+  "kb": 2797,
+  "src": "WANDOAK品牌介绍2.0.pdf",
+  "page": 7
+ },
+ {
+  "file": "wandoak_p08_1.jpg",
+  "sub": "小图与图标",
+  "w": 1187,
+  "h": 448,
+  "kb": 90,
+  "src": "WANDOAK品牌介绍2.0.pdf",
+  "page": 8
+ },
+ {
+  "file": "wandoak_p08_2.jpg",
+  "sub": "小图与图标",
+  "w": 1693,
+  "h": 496,
+  "kb": 79,
+  "src": "WANDOAK品牌介绍2.0.pdf",
+  "page": 8
+ },
+ {
+  "file": "wandoak_p09_0.jpg",
+  "sub": "可用大图",
+  "w": 844,
+  "h": 1500,
+  "kb": 178,
+  "src": "WANDOAK品牌介绍2.0.pdf",
+  "page": 9
+ },
+ {
+  "file": "wandoak_p09_1.jpg",
+  "sub": "小图与图标",
+  "w": 1175,
+  "h": 468,
+  "kb": 84,
+  "src": "WANDOAK品牌介绍2.0.pdf",
+  "page": 9
+ },
+ {
+  "file": "wandoak_p10_0.jpg",
+  "sub": "可用大图",
+  "w": 1333,
+  "h": 2000,
+  "kb": 121,
+  "src": "WANDOAK品牌介绍2.0.pdf",
+  "page": 10
+ },
+ {
+  "file": "wandoak_p11_0.jpg",
+  "sub": "可用大图",
+  "w": 4388,
+  "h": 6582,
+  "kb": 1023,
+  "src": "WANDOAK品牌介绍2.0.pdf",
+  "page": 11
+ },
+ {
+  "file": "wandoak_p11_1.jpg",
+  "sub": "可用大图",
+  "w": 2626,
+  "h": 3939,
+  "kb": 561,
+  "src": "WANDOAK品牌介绍2.0.pdf",
+  "page": 11
+ },
+ {
+  "file": "wandoak_p12_2.jpg",
+  "sub": "可用大图",
+  "w": 1575,
+  "h": 2363,
+  "kb": 111,
+  "src": "WANDOAK品牌介绍2.0.pdf",
+  "page": 12
+ },
+ {
+  "file": "wandoak_p12_3.jpg",
+  "sub": "可用大图",
+  "w": 1575,
+  "h": 2363,
+  "kb": 100,
+  "src": "WANDOAK品牌介绍2.0.pdf",
+  "page": 12
+ },
+ {
+  "file": "wandoak_p13_0.jpg",
+  "sub": "可用大图",
+  "w": 4096,
+  "h": 2304,
+  "kb": 693,
+  "src": "WANDOAK品牌介绍2.0.pdf",
+  "page": 13
+ },
+ {
+  "file": "wandoak_p14_1.jpg",
+  "sub": "可用大图",
+  "w": 1260,
+  "h": 1890,
+  "kb": 87,
+  "src": "WANDOAK品牌介绍2.0.pdf",
+  "page": 14
+ },
+ {
+  "file": "wandoak_p14_2.jpg",
+  "sub": "可用大图",
+  "w": 1260,
+  "h": 1890,
+  "kb": 93,
+  "src": "WANDOAK品牌介绍2.0.pdf",
+  "page": 14
+ },
+ {
+  "file": "wandoak_p15_0.jpg",
+  "sub": "可用大图",
+  "w": 750,
+  "h": 1125,
+  "kb": 50,
+  "src": "WANDOAK品牌介绍2.0.pdf",
+  "page": 15
+ },
+ {
+  "file": "wandoak_p15_1.jpg",
+  "sub": "可用大图",
+  "w": 750,
+  "h": 1125,
+  "kb": 46,
+  "src": "WANDOAK品牌介绍2.0.pdf",
+  "page": 15
+ },
+ {
+  "file": "wandoak_p15_2.jpg",
+  "sub": "可用大图",
+  "w": 750,
+  "h": 1125,
+  "kb": 48,
+  "src": "WANDOAK品牌介绍2.0.pdf",
+  "page": 15
+ },
+ {
+  "file": "wandoak_p15_3.jpg",
+  "sub": "可用大图",
+  "w": 750,
+  "h": 1125,
+  "kb": 51,
+  "src": "WANDOAK品牌介绍2.0.pdf",
+  "page": 15
+ },
+ {
+  "file": "wandoak_p15_4.jpg",
+  "sub": "可用大图",
+  "w": 2000,
+  "h": 1333,
+  "kb": 413,
+  "src": "WANDOAK品牌介绍2.0.pdf",
+  "page": 15
+ },
+ {
+  "file": "wandoak_p15_5.jpg",
+  "sub": "可用大图",
+  "w": 800,
+  "h": 800,
+  "kb": 61,
+  "src": "WANDOAK品牌介绍2.0.pdf",
+  "page": 15
+ },
+ {
+  "file": "wandoak_p15_6.jpg",
+  "sub": "可用大图",
+  "w": 800,
+  "h": 800,
+  "kb": 44,
+  "src": "WANDOAK品牌介绍2.0.pdf",
+  "page": 15
+ },
+ {
+  "file": "wandoak_p16_0.jpg",
+  "sub": "可用大图",
+  "w": 1699,
+  "h": 1700,
+  "kb": 182,
+  "src": "WANDOAK品牌介绍2.0.pdf",
+  "page": 16
+ },
+ {
+  "file": "wandoak_p19_0.jpg",
+  "sub": "可用大图",
+  "w": 4388,
+  "h": 6582,
+  "kb": 2263,
+  "src": "WANDOAK品牌介绍2.0.pdf",
+  "page": 19
+ },
+ {
+  "file": "wandoak_p19_1.jpg",
+  "sub": "可用大图",
+  "w": 4480,
+  "h": 6720,
+  "kb": 2681,
+  "src": "WANDOAK品牌介绍2.0.pdf",
+  "page": 19
+ },
+ {
+  "file": "wandouke_p05_0.jpg",
+  "sub": "可用大图",
+  "w": 1920,
+  "h": 1080,
+  "kb": 58,
+  "src": "豌豆客品牌手册2024-7-16.pdf",
+  "page": 5
+ },
+ {
+  "file": "wandouke_p05_2.jpg",
+  "sub": "小图与图标",
+  "w": 184,
+  "h": 125,
+  "kb": 15,
+  "src": "豌豆客品牌手册2024-7-16.pdf",
+  "page": 5
+ },
+ {
+  "file": "wandouke_p07_1.jpg",
+  "sub": "小图与图标",
+  "w": 218,
+  "h": 134,
+  "kb": 14,
+  "src": "豌豆客品牌手册2024-7-16.pdf",
+  "page": 7
+ },
+ {
+  "file": "wandouke_p07_2.jpg",
+  "sub": "小图与图标",
+  "w": 218,
+  "h": 134,
+  "kb": 13,
+  "src": "豌豆客品牌手册2024-7-16.pdf",
+  "page": 7
+ },
+ {
+  "file": "wandouke_p07_3.jpg",
+  "sub": "小图与图标",
+  "w": 229,
+  "h": 141,
+  "kb": 14,
+  "src": "豌豆客品牌手册2024-7-16.pdf",
+  "page": 7
+ },
+ {
+  "file": "wandouke_p07_7.jpg",
+  "sub": "小图与图标",
+  "w": 218,
+  "h": 135,
+  "kb": 16,
+  "src": "豌豆客品牌手册2024-7-16.pdf",
+  "page": 7
+ },
+ {
+  "file": "wandouke_p12_3.jpg",
+  "sub": "小图与图标",
+  "w": 176,
+  "h": 295,
+  "kb": 10,
+  "src": "豌豆客品牌手册2024-7-16.pdf",
+  "page": 12
+ },
+ {
+  "file": "wandouke_p12_4.jpg",
+  "sub": "小图与图标",
+  "w": 189,
+  "h": 301,
+  "kb": 10,
+  "src": "豌豆客品牌手册2024-7-16.pdf",
+  "page": 12
+ }
+]

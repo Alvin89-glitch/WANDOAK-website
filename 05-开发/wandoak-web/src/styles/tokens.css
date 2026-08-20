@@ -1,0 +1,106 @@
+/* ============================================================
+   WANDOAK design tokens
+   Every geometric value below is transcribed from
+   04-参考-ALO官网结构拆解/alo-spec.edited.json (evidence: measured).
+   Brand colours sampled from 03-图片素材/小图与图标/*.jpg.
+   ============================================================ */
+
+:root {
+  /* ---------- type families ---------- */
+  --font-sans: "Figtree Variable", "Figtree", "Noto Sans SC Subset", -apple-system,
+    BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  /* ---------- neutral ramp (ALO --primary/--charcoal/--mine/--chicago/--dawn/--alto/--mercury/--smoke) ---------- */
+  --ink:        #000000;
+  --ink-90:     #242424;
+  --ink-75:     #3b3b3b;
+  --ink-60:     #636363;
+  --ink-40:     #a3a3a3;
+  --line:       #cccccc;
+  --line-soft:  #e1e1e1;
+  --wash:       #f2f2f2;
+  --wash-band:  #f0f0f0;
+  --paper:      #ffffff;
+
+  /* ---------- brand (sampled from logo bitmaps) ---------- */
+  --brand:      #01a04c;  /* wandoak_p02_1.jpg wordmark          */
+  --brand-ink:  #017a3a;  /* darkened for text-level contrast    */
+  --parent:     #a40809;  /* kna_p19_11.jpg K&A mark — footer only */
+
+  /* ---------- natural tints (sampled from photography; opt-in only) ---------- */
+  --nat-sky:      #7890c0;
+  --nat-lavender: #a8a8c0;
+  --nat-sand:     #c0a890;
+  --nat-sky-6:      #eef1f7;
+  --nat-lavender-6: #f1f0f5;
+  --nat-sand-6:     #f6f2ed;
+
+  /* ---------- type scale — only these six sizes exist ---------- */
+  --t-display-size: 60px;   --t-display-lh: 72px;    --t-display-ls: -1.8px;   --t-display-w: 700;
+  /* one step below display, for page titles and stat figures — the only
+     addition to ALO's six sizes, so the scale holds at seven */
+  --t-dsm-size:     44px;   --t-dsm-lh:     52px;    --t-dsm-ls:     -1.2px;   --t-dsm-w:     700;
+  --t-h2-size:      32px;   --t-h2-lh: 40px;         --t-h2-ls: -0.96px;       --t-h2-w: 600;
+  --t-ed-size:      32px;   --t-ed-lh: 35.2px;       --t-ed-ls: normal;        --t-ed-w: 400;
+  --t-h6-size:      18px;   --t-h6-lh: 23.94px;      --t-h6-ls: 0.9px;         --t-h6-w: 500;
+  --t-btn-size:     18px;   --t-btn-lh: 18px;        --t-btn-ls: 1.5px;        --t-btn-w: 900;
+  --t-lead-size:    18px;   --t-lead-lh: 25.2px;     --t-lead-ls: 0.396px;     --t-lead-w: 400;
+  --t-body-size:    16px;   --t-body-lh: 22.4px;     --t-body-ls: 0.352px;     --t-body-w: 400;
+  --t-tag-size:     16px;   --t-tag-lh: 16px;        --t-tag-ls: 1.12px;       --t-tag-w: 500;
+  --t-sm-size:      14px;   --t-sm-lh: 19.6px;       --t-sm-ls: 0.308px;       --t-sm-w: 400;
+  --t-smcaps-size:  14px;   --t-smcaps-lh: 18.2px;   --t-smcaps-ls: 0.7px;     --t-smcaps-w: 600;
+  --t-micro-size:   12px;   --t-micro-lh: 16.8px;    --t-micro-ls: 0.48px;     --t-micro-w: 400;
+
+  /* ---------- spacing scale (ALO --spacing-*) ---------- */
+  --sp-xs:   4px;
+  --sp-sm:   8px;
+  --sp-msm: 12px;
+  --sp-md:  16px;
+  --sp-mlg: 20px;
+  --sp-lg:  24px;
+  --sp-xl:  32px;
+  --sp-2xl: 40px;
+  --sp-3xl: 48px;
+  --sp-4xl: 56px;
+  --sp-5xl: 64px;
+  --sp-6xl: 72px;
+  --sp-7xl: 80px;
+  --sp-8xl: 96px;
+  --sp-9xl: 120px;
+
+  /* ---------- layout ---------- */
+  --layout-w:   1440px;   /* ALO measured layout width            */
+  --pad-a:        45px;   /* Container A → content 1350           */
+  --pad-b:        16px;   /* Container B → content 1408           */
+  --pad-c:        70px;   /* Container C → content 1300           */
+  --section-gap:  70px;   /* .hp-section margin-bottom, invariant */
+  --nav-h:      83.5px;   /* measured                             */
+  --gutter-4:     32px;   /* 313.5×4 + 32×3 = 1350                */
+  --gutter-6:     12px;   /* 224.67×6 + 12×5 = 1408               */
+  --gutter-2:     15px;   /* 642.5×2 + 15 = 1300                  */
+
+  /* ---------- motion ---------- */
+  --ease-out: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --dur-reveal: 600ms;
+  --dur-hover:  600ms;
+  --dur-ui:     300ms;
+}
+
+@media (max-width: 991.98px) {
+  :root {
+    --pad-a: 30px;
+    --pad-c: 30px;
+    --section-gap: 56px;
+    --nav-h: 68px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  :root {
+    --pad-a: 16px;
+    --pad-b: 16px;
+    --pad-c: 16px;
+    --section-gap: 40px;
+    --nav-h: 57px;   /* measured on the mobile branch */
+  }
+}

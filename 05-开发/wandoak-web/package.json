@@ -1,0 +1,27 @@
+{
+  "name": "wandoak-web",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "images": "node scripts/build-images.mjs",
+    "font": "node scripts/build-cjk-font.mjs",
+    "verify": "node scripts/verify.mjs",
+    "qa": "npm run build && (npx vite preview --port 5179 --strictPort & sleep 3) && node scripts/verify.mjs http://localhost:5179"
+  },
+  "dependencies": {
+    "@fontsource-variable/figtree": "^5.3.0",
+    "vue": "^3.5.13",
+    "vue-i18n": "^11.1.2",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "playwright": "^1.62.1",
+    "sharp": "^0.34.1",
+    "vite": "^6.2.0"
+  }
+}

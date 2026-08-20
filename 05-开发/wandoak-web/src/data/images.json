@@ -1,0 +1,1998 @@
+{
+  "hero-home": {
+    "id": "hero-home",
+    "src": "wandoak_p02_0.jpg",
+    "source": "03-图片素材/可用大图/wandoak_p02_0.jpg",
+    "native": {
+      "w": 4388,
+      "h": 6582
+    },
+    "ratio": 2.503259452411995,
+    "alt": {
+      "en": "Two women running along the lakefront in WANDOAK bras",
+      "zh": "湖畔跑步，身着 WANDOAK 运动内衣"
+    },
+    "widths": [
+      400,
+      700,
+      1000,
+      1400,
+      2000,
+      2600
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/hero-home-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/hero-home-700.avif"
+        },
+        {
+          "w": 1000,
+          "url": "/img/hero-home-1000.avif"
+        },
+        {
+          "w": 1400,
+          "url": "/img/hero-home-1400.avif"
+        },
+        {
+          "w": 2000,
+          "url": "/img/hero-home-2000.avif"
+        },
+        {
+          "w": 2600,
+          "url": "/img/hero-home-2600.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/hero-home-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/hero-home-700.webp"
+        },
+        {
+          "w": 1000,
+          "url": "/img/hero-home-1000.webp"
+        },
+        {
+          "w": 1400,
+          "url": "/img/hero-home-1400.webp"
+        },
+        {
+          "w": 2000,
+          "url": "/img/hero-home-2000.webp"
+        },
+        {
+          "w": 2600,
+          "url": "/img/hero-home-2600.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/hero-home-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/hero-home-700.jpg"
+        },
+        {
+          "w": 1000,
+          "url": "/img/hero-home-1000.jpg"
+        },
+        {
+          "w": 1400,
+          "url": "/img/hero-home-1400.jpg"
+        },
+        {
+          "w": 2000,
+          "url": "/img/hero-home-2000.jpg"
+        },
+        {
+          "w": 2600,
+          "url": "/img/hero-home-2600.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAADQAwCdASoUAAgAPu1mqk2ppaQiMAgBMB2JbACdLwAA3f6PYynlG8AA9x8G1LuHNQnubd2uSXwg8oZKr2knJ9JTkeF3OHPC3We1kT5d0hF+Ht82TI2HuAd0WXm/KnkG4EDcxCZeNhoOCUFi7TCnAAAA"
+  },
+  "hero-home-sq": {
+    "id": "hero-home-sq",
+    "src": "wandoak_p02_0.jpg",
+    "source": "03-图片素材/可用大图/wandoak_p02_0.jpg",
+    "native": {
+      "w": 4388,
+      "h": 6582
+    },
+    "ratio": 1,
+    "alt": {
+      "en": "Two women running along the lakefront in WANDOAK bras",
+      "zh": "湖畔跑步，身着 WANDOAK 运动内衣"
+    },
+    "widths": [
+      400,
+      700,
+      1000,
+      1200
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/hero-home-sq-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/hero-home-sq-700.avif"
+        },
+        {
+          "w": 1000,
+          "url": "/img/hero-home-sq-1000.avif"
+        },
+        {
+          "w": 1200,
+          "url": "/img/hero-home-sq-1200.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/hero-home-sq-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/hero-home-sq-700.webp"
+        },
+        {
+          "w": 1000,
+          "url": "/img/hero-home-sq-1000.webp"
+        },
+        {
+          "w": 1200,
+          "url": "/img/hero-home-sq-1200.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/hero-home-sq-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/hero-home-sq-700.jpg"
+        },
+        {
+          "w": 1000,
+          "url": "/img/hero-home-sq-1000.jpg"
+        },
+        {
+          "w": 1200,
+          "url": "/img/hero-home-sq-1200.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRs4AAABXRUJQVlA4IMIAAABQBQCdASoUABQAPu1qrlCppaQiqAqpMB2JagCdMoMuycxtxhT5gzpmVzBCCCbdInV1dsAA9wdznK1GM+BPovX8bidrDVDaAynwArnnvQGS1MOUCTH5IjlWPIRjKFYG1aNbBL3HW9IqBM+c0TdM2HtucbT31WgYEXZHrjZFC+ZsbtZ+4j01VRa1V8SrTqRwliZxIEpWFcY2VpcvrKDYCioCKTxKlBh48kq4aLN2CijbFKsISTpMRYaFVkXbi85PcBAAAA=="
+  },
+  "hero-design": {
+    "id": "hero-design",
+    "src": "wandoak_p05_0.jpg",
+    "source": "03-图片素材/可用大图/wandoak_p05_0.jpg",
+    "native": {
+      "w": 4480,
+      "h": 6720
+    },
+    "ratio": 2.503259452411995,
+    "alt": {
+      "en": "Sage-green WANDOAK set against open sky",
+      "zh": "晴空下的 WANDOAK 鼠尾草绿套装"
+    },
+    "widths": [
+      400,
+      700,
+      1000,
+      1400,
+      2000,
+      2600
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/hero-design-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/hero-design-700.avif"
+        },
+        {
+          "w": 1000,
+          "url": "/img/hero-design-1000.avif"
+        },
+        {
+          "w": 1400,
+          "url": "/img/hero-design-1400.avif"
+        },
+        {
+          "w": 2000,
+          "url": "/img/hero-design-2000.avif"
+        },
+        {
+          "w": 2600,
+          "url": "/img/hero-design-2600.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/hero-design-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/hero-design-700.webp"
+        },
+        {
+          "w": 1000,
+          "url": "/img/hero-design-1000.webp"
+        },
+        {
+          "w": 1400,
+          "url": "/img/hero-design-1400.webp"
+        },
+        {
+          "w": 2000,
+          "url": "/img/hero-design-2000.webp"
+        },
+        {
+          "w": 2600,
+          "url": "/img/hero-design-2600.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/hero-design-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/hero-design-700.jpg"
+        },
+        {
+          "w": 1000,
+          "url": "/img/hero-design-1000.jpg"
+        },
+        {
+          "w": 1400,
+          "url": "/img/hero-design-1400.jpg"
+        },
+        {
+          "w": 2000,
+          "url": "/img/hero-design-2000.jpg"
+        },
+        {
+          "w": 2600,
+          "url": "/img/hero-design-2600.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADQAwCdASoUAAgALrV2u12jqampiYC0S1AE6coADFMtOwAUaPBzWgAAypH+CPUiat6m4fqzBrL+uvf2//iOYIyjjQW96Aa/MZTwAWMe0LKVBOSXzZ8ZRt7H4FywEgoA"
+  },
+  "hero-design-sq": {
+    "id": "hero-design-sq",
+    "src": "wandoak_p05_0.jpg",
+    "source": "03-图片素材/可用大图/wandoak_p05_0.jpg",
+    "native": {
+      "w": 4480,
+      "h": 6720
+    },
+    "ratio": 1,
+    "alt": {
+      "en": "Two women practising yoga on grass in sage-green WANDOAK sets",
+      "zh": "草地瑜伽，WANDOAK 鼠尾草绿套装"
+    },
+    "widths": [
+      400,
+      700,
+      1000,
+      1200
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/hero-design-sq-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/hero-design-sq-700.avif"
+        },
+        {
+          "w": 1000,
+          "url": "/img/hero-design-sq-1000.avif"
+        },
+        {
+          "w": 1200,
+          "url": "/img/hero-design-sq-1200.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/hero-design-sq-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/hero-design-sq-700.webp"
+        },
+        {
+          "w": 1000,
+          "url": "/img/hero-design-sq-1000.webp"
+        },
+        {
+          "w": 1200,
+          "url": "/img/hero-design-sq-1200.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/hero-design-sq-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/hero-design-sq-700.jpg"
+        },
+        {
+          "w": 1000,
+          "url": "/img/hero-design-sq-1000.jpg"
+        },
+        {
+          "w": 1200,
+          "url": "/img/hero-design-sq-1200.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRq4AAABXRUJQVlA4IKIAAABQBQCdASoUABQAPu1orlCppaQiqAqpMB2JagCpLUE7kAP6+Kez3llQ62m9i1aF5HmRUBwA55A9x3sMvx7HSsUC65i0GtvfU0yUDs7u/E/qvtKswutHPO/VISa45J924IlXu53MW4oMDivlzq3+I523km5fUbjvEAuIgX1Has8Yms5BR2HrtlSPGsCOwMyU5OmKpXlgvxHMDPoWxVK2/2yUWAA="
+  },
+  "hero-partner": {
+    "id": "hero-partner",
+    "src": "kna_p13_0.jpg",
+    "source": "03-图片素材/可用大图/kna_p13_0.jpg",
+    "native": {
+      "w": 1187,
+      "h": 448
+    },
+    "ratio": 2.915451895043732,
+    "alt": {
+      "en": "The K&A production facility in Zhenhai, Ningbo",
+      "zh": "宁波镇海 K&A 厂区"
+    },
+    "widths": [
+      400,
+      700,
+      1000,
+      1187
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/hero-partner-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/hero-partner-700.avif"
+        },
+        {
+          "w": 1000,
+          "url": "/img/hero-partner-1000.avif"
+        },
+        {
+          "w": 1187,
+          "url": "/img/hero-partner-1187.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/hero-partner-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/hero-partner-700.webp"
+        },
+        {
+          "w": 1000,
+          "url": "/img/hero-partner-1000.webp"
+        },
+        {
+          "w": 1187,
+          "url": "/img/hero-partner-1187.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/hero-partner-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/hero-partner-700.jpg"
+        },
+        {
+          "w": 1000,
+          "url": "/img/hero-partner-1000.jpg"
+        },
+        {
+          "w": 1187,
+          "url": "/img/hero-partner-1187.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAwCdASoUAAcAPu1kq04ppaQiMAgBMB2JZQDCgCLv8Y7/w0M9wAD+q+TVMyop1eqUlMxbBzQKvCLdnMMFaaoZ24/I9rwXtXSeUWAA"
+  },
+  "ed-who": {
+    "id": "ed-who",
+    "src": "wandoak_p11_1.jpg",
+    "source": "03-图片素材/可用大图/wandoak_p11_1.jpg",
+    "native": {
+      "w": 2626,
+      "h": 3939
+    },
+    "ratio": 1.1111111111111112,
+    "alt": {
+      "en": "Close portrait of a model in a lilac WANDOAK bra",
+      "zh": "身着淡紫色 WANDOAK 运动内衣的模特特写"
+    },
+    "widths": [
+      400,
+      700,
+      1000,
+      1400
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/ed-who-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/ed-who-700.avif"
+        },
+        {
+          "w": 1000,
+          "url": "/img/ed-who-1000.avif"
+        },
+        {
+          "w": 1400,
+          "url": "/img/ed-who-1400.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/ed-who-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/ed-who-700.webp"
+        },
+        {
+          "w": 1000,
+          "url": "/img/ed-who-1000.webp"
+        },
+        {
+          "w": 1400,
+          "url": "/img/ed-who-1400.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/ed-who-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/ed-who-700.jpg"
+        },
+        {
+          "w": 1000,
+          "url": "/img/ed-who-1000.jpg"
+        },
+        {
+          "w": 1400,
+          "url": "/img/ed-who-1400.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAADQAwCdASoUABIAPu1ur1IppiQnqAgBMB2JQAAEPzI/AegpdhJiNkAA/uqYHMzabG+rrUiGVK5YR804LjHmPS99olFgNirPA+aX2bETJ+eDFNwAPK9TKE/+/Kg1iNknagYAZGNdLgvVvja/MdtT2PjE7f2uvIQOSMyKJzxuMExn+rFgkjNAB6gAAAA="
+  },
+  "ed-fit": {
+    "id": "ed-fit",
+    "src": "wandoak_p14_1.jpg",
+    "source": "03-图片素材/可用大图/wandoak_p14_1.jpg",
+    "native": {
+      "w": 1260,
+      "h": 1890
+    },
+    "ratio": 1.1111111111111112,
+    "alt": {
+      "en": "A printed WANDOAK bra and leggings in motion",
+      "zh": "印花运动内衣与紧身裤"
+    },
+    "widths": [
+      400,
+      700,
+      1000,
+      1200
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/ed-fit-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/ed-fit-700.avif"
+        },
+        {
+          "w": 1000,
+          "url": "/img/ed-fit-1000.avif"
+        },
+        {
+          "w": 1200,
+          "url": "/img/ed-fit-1200.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/ed-fit-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/ed-fit-700.webp"
+        },
+        {
+          "w": 1000,
+          "url": "/img/ed-fit-1000.webp"
+        },
+        {
+          "w": 1200,
+          "url": "/img/ed-fit-1200.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/ed-fit-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/ed-fit-700.jpg"
+        },
+        {
+          "w": 1000,
+          "url": "/img/ed-fit-1000.jpg"
+        },
+        {
+          "w": 1200,
+          "url": "/img/ed-fit-1200.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADwAwCdASoUABIAPu1sq1EppaOiqAqpMB2JZwDKAAyV22AG7Jauj7gAAP7nQKpE/tw8H53TVR3lepNxYpSkKcrCGRfBCH2ExPhqs7UFBPBiWvAv5xAiblccAAA="
+  },
+  "ed-transthermal": {
+    "id": "ed-transthermal",
+    "src": "wandoak_p13_0.jpg",
+    "source": "03-图片素材/可用大图/wandoak_p13_0.jpg",
+    "native": {
+      "w": 4096,
+      "h": 2304
+    },
+    "ratio": 1.1111111111111112,
+    "alt": {
+      "en": "TransThermal cooling fabric technical diagram",
+      "zh": "TransThermal 凉感面料技术图"
+    },
+    "widths": [
+      400,
+      700,
+      1000,
+      1400
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/ed-transthermal-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/ed-transthermal-700.avif"
+        },
+        {
+          "w": 1000,
+          "url": "/img/ed-transthermal-1000.avif"
+        },
+        {
+          "w": 1400,
+          "url": "/img/ed-transthermal-1400.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/ed-transthermal-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/ed-transthermal-700.webp"
+        },
+        {
+          "w": 1000,
+          "url": "/img/ed-transthermal-1000.webp"
+        },
+        {
+          "w": 1400,
+          "url": "/img/ed-transthermal-1400.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/ed-transthermal-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/ed-transthermal-700.jpg"
+        },
+        {
+          "w": 1000,
+          "url": "/img/ed-transthermal-1000.jpg"
+        },
+        {
+          "w": 1400,
+          "url": "/img/ed-transthermal-1400.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAAAQBACdASoUABIAPu1orFCppaQiqAqpMB2JQBXDghLIlLYQlLvcZnBwAAD+VIRZ4xBMXklK2RgefRIuN3a5YU5Zu6nKhD4KtQ8dzQFxSFP0PUvEO6o9/ETp973KHc+OHXc2itQ+2DYAvQ+QoloABvwAW3CMeVbwPwO2TAAA"
+  },
+  "ed-quality": {
+    "id": "ed-quality",
+    "src": "kna_p18_0.jpg",
+    "source": "03-图片素材/可用大图/kna_p18_0.jpg",
+    "native": {
+      "w": 888,
+      "h": 1173
+    },
+    "ratio": 1.1111111111111112,
+    "alt": {
+      "en": "Final inspection and folding on the finishing line",
+      "zh": "成品线上的终检与折叠"
+    },
+    "widths": [
+      400,
+      700,
+      800
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/ed-quality-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/ed-quality-700.avif"
+        },
+        {
+          "w": 800,
+          "url": "/img/ed-quality-800.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/ed-quality-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/ed-quality-700.webp"
+        },
+        {
+          "w": 800,
+          "url": "/img/ed-quality-800.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/ed-quality-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/ed-quality-700.jpg"
+        },
+        {
+          "w": 800,
+          "url": "/img/ed-quality-800.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRuAAAABXRUJQVlA4INQAAAAwBQCdASoUABIAPu1urlIppiQiqAgBMB2JZgAIEC6OxvJsEERDZQqAQV2IFB2Apjp4gAD+ynO+nZ0dO292pWsmSNzT3NudBtPvbrvN9rMIJa0P2fNuFEN8k4kkGwcbknbkwNuqDuhWY6PKnmdanoB4dB+GUxcE9/NL/2hhJF+UCwT4+GyjZ7N+XFzZKL61W1zVDikn7MlSb6JDiSteoZ9+IAeHA/BlonQYvAn+epqnmf50A6YbQdtUeTakRc3pY2Kb+1DHzof58vjcrozGjyzAxw2AAA=="
+  },
+  "ed-clients": {
+    "id": "ed-clients",
+    "src": "kna_p03_0.jpg",
+    "source": "03-图片素材/可用大图/kna_p03_0.jpg",
+    "native": {
+      "w": 2686,
+      "h": 2652
+    },
+    "ratio": 1.1111111111111112,
+    "alt": {
+      "en": "K&A sample showroom with rails of garments",
+      "zh": "K&A 样品陈列厅"
+    },
+    "widths": [
+      400,
+      700,
+      1000,
+      1400
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/ed-clients-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/ed-clients-700.avif"
+        },
+        {
+          "w": 1000,
+          "url": "/img/ed-clients-1000.avif"
+        },
+        {
+          "w": 1400,
+          "url": "/img/ed-clients-1400.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/ed-clients-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/ed-clients-700.webp"
+        },
+        {
+          "w": 1000,
+          "url": "/img/ed-clients-1000.webp"
+        },
+        {
+          "w": 1400,
+          "url": "/img/ed-clients-1400.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/ed-clients-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/ed-clients-700.jpg"
+        },
+        {
+          "w": 1000,
+          "url": "/img/ed-clients-1000.jpg"
+        },
+        {
+          "w": 1400,
+          "url": "/img/ed-clients-1400.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAABwBACdASoUABIAPu1cqk4ppKOiMBgMATAdiUAXyQEg1OX6obL78/B35HORAAD+n+DKrbDPeVXQmmlHQHKcOn37jnzbkhqZZ/PLoHhOqvidiL1ipQSfngdxhQbxz/uC8abxKtahcck33FmXVG8MWEO9YJUfsUIip6OfdzyToQ8Q/KTpvkVLYdUsAAA="
+  },
+  "ed-sourcing": {
+    "id": "ed-sourcing",
+    "src": "kna_p16_1.jpg",
+    "source": "03-图片素材/可用大图/kna_p16_1.jpg",
+    "native": {
+      "w": 2309,
+      "h": 1539
+    },
+    "ratio": 1.1111111111111112,
+    "alt": {
+      "en": "Fabric library racks in the K&A warehouse",
+      "zh": "K&A 面料仓货架"
+    },
+    "widths": [
+      400,
+      700,
+      1000,
+      1400
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/ed-sourcing-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/ed-sourcing-700.avif"
+        },
+        {
+          "w": 1000,
+          "url": "/img/ed-sourcing-1000.avif"
+        },
+        {
+          "w": 1400,
+          "url": "/img/ed-sourcing-1400.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/ed-sourcing-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/ed-sourcing-700.webp"
+        },
+        {
+          "w": 1000,
+          "url": "/img/ed-sourcing-1000.webp"
+        },
+        {
+          "w": 1400,
+          "url": "/img/ed-sourcing-1400.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/ed-sourcing-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/ed-sourcing-700.jpg"
+        },
+        {
+          "w": 1000,
+          "url": "/img/ed-sourcing-1000.jpg"
+        },
+        {
+          "w": 1400,
+          "url": "/img/ed-sourcing-1400.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAABQBACdASoUABIAPu1mq06ppaOiKA1RMB2JZBeAAXbICXyQ5BI6Of7auGgAAPaRHMssbosPVRA++IArtTS5bVkXnPO8rcyzRr4ZhM+4nv2yCNytB69U6rLj3sHKIOksH193rbsnLdG9JKuPAYHHF7dbdZiDJeQ7cTJKv5pMq3mmOrOj+mGrQjXa9sfoOw/ZuSixnXUV8xfQtRIAAAA="
+  },
+  "cat-bra": {
+    "id": "cat-bra",
+    "src": "wandoak_p15_5.jpg",
+    "source": "03-图片素材/可用大图/wandoak_p15_5.jpg",
+    "native": {
+      "w": 800,
+      "h": 800
+    },
+    "ratio": 0.7646341463414634,
+    "alt": {
+      "en": "A WANDOAK sports bra in sage",
+      "zh": "鼠尾草绿 WANDOAK 运动内衣"
+    },
+    "widths": [
+      400,
+      700,
+      800
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/cat-bra-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/cat-bra-700.avif"
+        },
+        {
+          "w": 800,
+          "url": "/img/cat-bra-800.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/cat-bra-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/cat-bra-700.webp"
+        },
+        {
+          "w": 800,
+          "url": "/img/cat-bra-800.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/cat-bra-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/cat-bra-700.jpg"
+        },
+        {
+          "w": 800,
+          "url": "/img/cat-bra-800.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAAAwBACdASoUABoAPu1wsFKppiSiqAgBMB2JZQAALlbfzP8A+ZdkThuRwAAA/vN+cBgkdWkTN0sjtPzIPNfUmUwoHlyPXg0GHw9NfSbQiU+d8tmbR9P6jZm5fOcDNDdcF7GkzUu3PpoOhaHiKDjlnSnGSIVhP4AAAAA="
+  },
+  "cat-bottoms": {
+    "id": "cat-bottoms",
+    "src": "wandoak_p12_3.jpg",
+    "source": "03-图片素材/可用大图/wandoak_p12_3.jpg",
+    "native": {
+      "w": 1575,
+      "h": 2363
+    },
+    "ratio": 0.7646341463414634,
+    "alt": {
+      "en": "Back view of a model running in lilac top and blue leggings",
+      "zh": "淡紫上衣与蓝色紧身裤背面"
+    },
+    "widths": [
+      400,
+      700,
+      900
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/cat-bottoms-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/cat-bottoms-700.avif"
+        },
+        {
+          "w": 900,
+          "url": "/img/cat-bottoms-900.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/cat-bottoms-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/cat-bottoms-700.webp"
+        },
+        {
+          "w": 900,
+          "url": "/img/cat-bottoms-900.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/cat-bottoms-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/cat-bottoms-700.jpg"
+        },
+        {
+          "w": 900,
+          "url": "/img/cat-bottoms-900.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAAAwBACdASoUABoAPu1or1AppaSiqAqpMB2JZQDO7BIvvjctatbiDLUH6AAA/ufVemNC8npox8GLsHDUaPpGPd2WyPK5kl/VuuEKzg3ns4uNdD8ZoJ6Sb6QJOmfHbyMgEnYCYd08AAA="
+  },
+  "cat-tops": {
+    "id": "cat-tops",
+    "src": "wandoak_p15_6.jpg",
+    "source": "03-图片素材/可用大图/wandoak_p15_6.jpg",
+    "native": {
+      "w": 800,
+      "h": 800
+    },
+    "ratio": 0.7646341463414634,
+    "alt": {
+      "en": "A WANDOAK long-sleeve top in sage",
+      "zh": "鼠尾草绿 WANDOAK 长袖上衣"
+    },
+    "widths": [
+      400,
+      700,
+      800
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/cat-tops-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/cat-tops-700.avif"
+        },
+        {
+          "w": 800,
+          "url": "/img/cat-tops-800.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/cat-tops-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/cat-tops-700.webp"
+        },
+        {
+          "w": 800,
+          "url": "/img/cat-tops-800.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/cat-tops-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/cat-tops-700.jpg"
+        },
+        {
+          "w": 800,
+          "url": "/img/cat-tops-800.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAAAQBACdASoUABoAPu1orVCppaQiqAqpMB2JZQDNhBELeCaSEWPJgdewQAD+84E5OfEzwSPK98jvqk0MmJ9Ax0Lqx8TqwBwXt2e8hRvqlZFU/grO0+bq+TWyFJp5MJ7TERU/ZcKIAAA="
+  },
+  "cat-outer": {
+    "id": "cat-outer",
+    "src": "kna_p11_6.jpg",
+    "source": "03-图片素材/可用大图/kna_p11_6.jpg",
+    "native": {
+      "w": 800,
+      "h": 749
+    },
+    "ratio": 0.7646341463414634,
+    "alt": {
+      "en": "Quarter-zip technical outerwear, collar and seam detail",
+      "zh": "半拉链功能外套的领口与拼缝细节"
+    },
+    "widths": [
+      400,
+      700,
+      800
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/cat-outer-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/cat-outer-700.avif"
+        },
+        {
+          "w": 800,
+          "url": "/img/cat-outer-800.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/cat-outer-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/cat-outer-700.webp"
+        },
+        {
+          "w": 800,
+          "url": "/img/cat-outer-800.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/cat-outer-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/cat-outer-700.jpg"
+        },
+        {
+          "w": 800,
+          "url": "/img/cat-outer-800.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAADQAgCdASoUABoAPu1wsVKppiSiqAgBMB2JaQAAPaOgAP7vfAAh2+ZZEyOyBkAAAAA="
+  },
+  "scen-yoga": {
+    "id": "scen-yoga",
+    "src": "wandoak_p05_0.jpg",
+    "source": "03-图片素材/可用大图/wandoak_p05_0.jpg",
+    "native": {
+      "w": 4480,
+      "h": 6720
+    },
+    "ratio": 0.7092303807058526,
+    "alt": {
+      "en": "Yoga and balance",
+      "zh": "瑜伽 · 平衡"
+    },
+    "widths": [
+      400,
+      700,
+      900
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/scen-yoga-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/scen-yoga-700.avif"
+        },
+        {
+          "w": 900,
+          "url": "/img/scen-yoga-900.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/scen-yoga-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/scen-yoga-700.webp"
+        },
+        {
+          "w": 900,
+          "url": "/img/scen-yoga-900.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/scen-yoga-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/scen-yoga-700.jpg"
+        },
+        {
+          "w": 900,
+          "url": "/img/scen-yoga-900.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRtgAAABXRUJQVlA4IMwAAABQBQCdASoUABwAPu1or1AppaSiqAqpMB2JbACpJ0dGUA6b3V0Ixcz0fMFdelLPdWPMYqgA55CYbU0AgcJBmL3TA9k6IxsH4PzAinwbjMzTo3gtbvu0QkdZjfAhuWtvz6CcXHySWG/G48ZAqJG28srLoC2+C190bS8Z6kCH5hRQE3avEQ6in6VCqwNWrax8fdRyyp0arrVqadB4BzaWpe8iJ2kURm3/JdTinpkSIjAx6OBB6yl3sddEGx41I7IxB+dP0ZcgSM/Z524AAAA="
+  },
+  "scen-run": {
+    "id": "scen-run",
+    "src": "wandoak_p02_0.jpg",
+    "source": "03-图片素材/可用大图/wandoak_p02_0.jpg",
+    "native": {
+      "w": 4388,
+      "h": 6582
+    },
+    "ratio": 0.7092303807058526,
+    "alt": {
+      "en": "Running and cardio",
+      "zh": "跑步 · 有氧"
+    },
+    "widths": [
+      400,
+      700,
+      900
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/scen-run-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/scen-run-700.avif"
+        },
+        {
+          "w": 900,
+          "url": "/img/scen-run-900.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/scen-run-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/scen-run-700.webp"
+        },
+        {
+          "w": 900,
+          "url": "/img/scen-run-900.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/scen-run-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/scen-run-700.jpg"
+        },
+        {
+          "w": 900,
+          "url": "/img/scen-run-900.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRv4AAABXRUJQVlA4IPIAAAAQBwCdASoUABwAPu1irVAppSQisBgIATAdiWwAnTKDOiZqtMzI9i3eigUZ2eEJQ+pWZMwbt/w4T43U8uPG94vAAAD3HxaMAddW5zwFBJULYoYFMmiiBkkVppDVkij3+/u2O18KArC8yT23APMlfXb4hT3wNN1kEI7cNJvrLvCMZX4uBx5H3bf75CjZqyrbXRaG97P8/vP59RzEAJh2TGAoXw3tY5NoBoC83dTK4ylcPzl+9CoSrJVYzTfq31x+fyB0VkCwfkw/SRfRCqMVGaX3ksWmUY4bfu3LTnaRpuc9FSQF0+7g+CaLxPwmZKAI/Zc4AA=="
+  },
+  "scen-strength": {
+    "id": "scen-strength",
+    "src": "wandoak_p12_2.jpg",
+    "source": "03-图片素材/可用大图/wandoak_p12_2.jpg",
+    "native": {
+      "w": 1575,
+      "h": 2363
+    },
+    "ratio": 0.7092303807058526,
+    "alt": {
+      "en": "Strength and cross-training",
+      "zh": "力量训练 · 综训"
+    },
+    "widths": [
+      400,
+      700,
+      900
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/scen-strength-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/scen-strength-700.avif"
+        },
+        {
+          "w": 900,
+          "url": "/img/scen-strength-900.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/scen-strength-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/scen-strength-700.webp"
+        },
+        {
+          "w": 900,
+          "url": "/img/scen-strength-900.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/scen-strength-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/scen-strength-700.jpg"
+        },
+        {
+          "w": 900,
+          "url": "/img/scen-strength-900.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAAAQBACdASoUABwAPu1kqU2ppaOiMAgBMB2JZwDKtCFP9H+lcHzCLJbvAAD+6nYtoyJcVuKX11R0f+kFNi0VNGy6JjjwSdR3aTqG2CvcNuxmO+2dP+PAkkUekRDY96XlQrOk90eCvMjIQXatFwAAAA=="
+  },
+  "scen-urban": {
+    "id": "scen-urban",
+    "src": "wandoak_p19_0.jpg",
+    "source": "03-图片素材/可用大图/wandoak_p19_0.jpg",
+    "native": {
+      "w": 4388,
+      "h": 6582
+    },
+    "ratio": 0.7092303807058526,
+    "alt": {
+      "en": "Urban everyday",
+      "zh": "城市出行"
+    },
+    "widths": [
+      400,
+      700,
+      900
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/scen-urban-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/scen-urban-700.avif"
+        },
+        {
+          "w": 900,
+          "url": "/img/scen-urban-900.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/scen-urban-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/scen-urban-700.webp"
+        },
+        {
+          "w": 900,
+          "url": "/img/scen-urban-900.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/scen-urban-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/scen-urban-700.jpg"
+        },
+        {
+          "w": 900,
+          "url": "/img/scen-urban-900.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRr4AAABXRUJQVlA4ILIAAACwBQCdASoUABwAPuFaqE2opSQiMAwBEBwJZgCxHyS8WEAAqwSJhTdnjWvmkpLLQtCP/DfvtgAA9wh4GI2BJR6yjuEB3lW5RitXWZ4ahLVns7C/GiFk2PcsTOFd14t3bNqT9ik/tjNpK6TompFyXz1FvJXItRWNWGi5K4LiTkMC3XAW9MATXhfvFkW5K0EBXbq9G0WBoUOeDMZbWQdnWtMTKStXEryA+gpZ5OZNiN8SUAAA"
+  },
+  "cta-floor": {
+    "id": "cta-floor",
+    "src": "kna_p14_4.jpg",
+    "source": "03-图片素材/可用大图/kna_p14_4.jpg",
+    "native": {
+      "w": 1381,
+      "h": 841
+    },
+    "ratio": 2.915451895043732,
+    "alt": {
+      "en": "The cut-and-sew line with its overhead hanging system",
+      "zh": "裁缝产线与吊挂系统"
+    },
+    "widths": [
+      400,
+      700,
+      1000,
+      1381
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/cta-floor-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/cta-floor-700.avif"
+        },
+        {
+          "w": 1000,
+          "url": "/img/cta-floor-1000.avif"
+        },
+        {
+          "w": 1381,
+          "url": "/img/cta-floor-1381.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/cta-floor-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/cta-floor-700.webp"
+        },
+        {
+          "w": 1000,
+          "url": "/img/cta-floor-1000.webp"
+        },
+        {
+          "w": 1381,
+          "url": "/img/cta-floor-1381.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/cta-floor-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/cta-floor-700.jpg"
+        },
+        {
+          "w": 1000,
+          "url": "/img/cta-floor-1000.jpg"
+        },
+        {
+          "w": 1381,
+          "url": "/img/cta-floor-1381.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAACwAwCdASoUAAcAPu1iqU2ppaOiMAgBMB2JZwDDNBVY7XIinOFJuAD+g6C5z0U79z6q32cJEE3KICxQASs1PPBSotngXp7KCtY5ZUaYj/XmTtoNW9SshtoFAAA="
+  },
+  "tech-1": {
+    "id": "tech-1",
+    "src": "wandoak_p14_2.jpg",
+    "source": "03-图片素材/可用大图/wandoak_p14_2.jpg",
+    "native": {
+      "w": 1260,
+      "h": 1890
+    },
+    "ratio": 0.6666666666666666,
+    "alt": {
+      "en": "Five-way support construction",
+      "zh": "五向支撑结构"
+    },
+    "widths": [
+      400,
+      700
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/tech-1-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/tech-1-700.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/tech-1-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/tech-1-700.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/tech-1-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/tech-1-700.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAABQBACdASoUAB4APu1mrE8ppaQiMBgIATAdiWcAzuwQP7GG0k9NSoDGKTYAAP7nPAa4ls4maPFjxRZ9CwAtRtIqNs5G00XtoeeXike64hBfnUNlQCKvze3JDkRC/bqmhZHAnE2OeAA="
+  },
+  "tech-2": {
+    "id": "tech-2",
+    "src": "wandoak_p11_0.jpg",
+    "source": "03-图片素材/可用大图/wandoak_p11_0.jpg",
+    "native": {
+      "w": 4388,
+      "h": 6582
+    },
+    "ratio": 0.6666666666666666,
+    "alt": {
+      "en": "Quick-dry jersey stretched to show the hand of the fabric",
+      "zh": "速干针织面料的手感展示"
+    },
+    "widths": [
+      400,
+      700
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/tech-2-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/tech-2-700.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/tech-2-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/tech-2-700.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/tech-2-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/tech-2-700.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAAAQBQCdASoUAB4APt1YpE2opSOiN/qoARAbiUAYH4mNSAKLESo0AdILBg+brI8ejA4YAP7tYXexvuEXCChJbaHKBNd9JMCk/uobmALWXLESJqcjhrcgPslEBZAuLcdtvY3VjfwIx+b/2T0ZlcX5Glp2yhtdY+4B2L7jidK21mZR81RcbySSZcOVI2TRv/ciJL13KQe2r6A8zwAA"
+  },
+  "tech-3": {
+    "id": "tech-3",
+    "src": "kna_p20_0.jpg",
+    "source": "03-图片素材/可用大图/kna_p20_0.jpg",
+    "native": {
+      "w": 1133,
+      "h": 1700
+    },
+    "ratio": 0.6666666666666666,
+    "alt": {
+      "en": "Cooling-fabric set in a studio yoga pose",
+      "zh": "凉感面料套装"
+    },
+    "widths": [
+      400,
+      700
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/tech-3-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/tech-3-700.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/tech-3-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/tech-3-700.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/tech-3-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/tech-3-700.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAACQBACdASoUAB4APu1mqk8ppaOiKA1RMB2JZQDL4DpNXoVv8CuDluDj2/PYUsAA/lLWqJZquCJoB+c+3nAll4MeFzsXNcDHYmI7SdyQUd+13vojEUYWxJ8V8w9cdGAs0L097wwOh/SWNlbKtmYT9WIAAAA="
+  },
+  "tech-4": {
+    "id": "tech-4",
+    "src": "kna_p11_6.jpg",
+    "source": "03-图片素材/可用大图/kna_p11_6.jpg",
+    "native": {
+      "w": 800,
+      "h": 749
+    },
+    "ratio": 0.6666666666666666,
+    "alt": {
+      "en": "Graphene-treated technical fabric",
+      "zh": "石墨烯功能面料"
+    },
+    "widths": [
+      400,
+      700
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/tech-4-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/tech-4-700.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/tech-4-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/tech-4-700.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/tech-4-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/tech-4-700.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAADQAgCdASoUAB4APu1wsVKtJiSiqAgBoB2JaQAAPaOgAP7voHOtID2QMgAAAA=="
+  },
+  "tech-5": {
+    "id": "tech-5",
+    "src": "wandoak_p12_2.jpg",
+    "source": "03-图片素材/可用大图/wandoak_p12_2.jpg",
+    "native": {
+      "w": 1575,
+      "h": 2363
+    },
+    "ratio": 0.6666666666666666,
+    "alt": {
+      "en": "Stretch and recovery in compression leggings",
+      "zh": "压缩裤的弹力与回弹"
+    },
+    "widths": [
+      400,
+      700
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/tech-5-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/tech-5-700.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/tech-5-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/tech-5-700.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/tech-5-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/tech-5-700.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAABwBACdASoUAB4APuFUpE2opKOjN/qoARAcCWcAy6QiDpMTprGvqylQkVUUAAD+6ntlghO293DSmnu2ZZXu3ihdOA6fBzkydNhRGahk/wqpl0O5crqsh9/xE9HnUhSEabsH3dSrrHHmYdfh57w/nA0qAGAAAA=="
+  },
+  "tech-6": {
+    "id": "tech-6",
+    "src": "kna_p15_0.jpg",
+    "source": "03-图片素材/可用大图/kna_p15_0.jpg",
+    "native": {
+      "w": 957,
+      "h": 649
+    },
+    "ratio": 0.6666666666666666,
+    "alt": {
+      "en": "Seamless circular knitting machines",
+      "zh": "无缝针织圆机"
+    },
+    "widths": [
+      400,
+      700
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/tech-6-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/tech-6-700.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/tech-6-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/tech-6-700.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/tech-6-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/tech-6-700.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRsgAAABXRUJQVlA4ILwAAAAwBQCdASoUAB4APu1ip02ppaOiMAgBMB2JZwDJECLjry/eahv5MyX1jvmDqKmkCc02MAD+1MurPUvjZFHADGaRgpdxluX7LTd13wo4ngbwwi7Lolk55XNxH3LvKc/vN5l//+qdDdb0RMR+8JYTuw4TOMGDt4ymORQSG5TgoQwOIQaG+/xycNa7CV0MQwOUrhxBSJuz5L3XclF9wYBlLKzvon/GW6VlPdPGVkojK9ECg7SqX4tM2XVYVQAAAA=="
+  },
+  "tech-7": {
+    "id": "tech-7",
+    "src": "kna_p16_1.jpg",
+    "source": "03-图片素材/可用大图/kna_p16_1.jpg",
+    "native": {
+      "w": 2309,
+      "h": 1539
+    },
+    "ratio": 0.6666666666666666,
+    "alt": {
+      "en": "Recycled and bio-based fabric rolls in the library",
+      "zh": "面料仓中的再生与生物基面料"
+    },
+    "widths": [
+      400,
+      700
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/tech-7-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/tech-7-700.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/tech-7-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/tech-7-700.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/tech-7-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/tech-7-700.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRv4AAABXRUJQVlA4IPIAAACwBQCdASoUAB4APu1gq1AppKOisBgIATAdiWgAvkmMOmSklW6aIi1tCPRY8NN1Eyf2zj9utgAA/ty+2CC48jgFG1v18J/w13jRjMuhfrG4AbR/EeLGIdpAvOSfHEp4Z1h6q5b46E9833Vgmn76XC8JmQp42tHd3qTk6z7EaY8wABtfBKGHjkJPcgxDjkxQ+OJOXsS4FXELomJL9MaUInwKW/2CK/cn3QK50OEeEstX7UlMhGF0j+jLiFDuZ6GBDlPGpf0UAlAVom6jp9VPk363VqLM+667csg7iBF6hoANWruL8XzPmWDa05UzTitkFAAAAA=="
+  },
+  "floor-cutting": {
+    "id": "floor-cutting",
+    "src": "kna_p15_1.jpg",
+    "source": "03-图片素材/可用大图/kna_p15_1.jpg",
+    "native": {
+      "w": 951,
+      "h": 645
+    },
+    "ratio": 1.1111111111111112,
+    "alt": {
+      "en": "Computerised cutting station",
+      "zh": "电脑裁床工位"
+    },
+    "widths": [
+      400,
+      700,
+      951
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/floor-cutting-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/floor-cutting-700.avif"
+        },
+        {
+          "w": 951,
+          "url": "/img/floor-cutting-951.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/floor-cutting-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/floor-cutting-700.webp"
+        },
+        {
+          "w": 951,
+          "url": "/img/floor-cutting-951.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/floor-cutting-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/floor-cutting-700.jpg"
+        },
+        {
+          "w": 951,
+          "url": "/img/floor-cutting-951.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRrwAAABXRUJQVlA4ILAAAADwBACdASoUABIAPu1ur1IppiQiqAgBMB2JZQDM0A9AIo2WcEutemOTW6YcB0OAtwAA4gKcmdQ1VF/HwpMCeNSG3w5CdnVIwxALFo7avmSiW84S9ChFZZevkyWwYNcBQLtAZM2NfsOMe2IhqaX85pluoylZBmDqKYlSllEfq9loF8l9iYzQ8vmL65S8qRQ2DAWsI07q/jmS2bvQezKl4O0MgTWvJ/ddUF5PYU4Ad5AAAA=="
+  },
+  "floor-line": {
+    "id": "floor-line",
+    "src": "kna_p15_3.jpg",
+    "source": "03-图片素材/可用大图/kna_p15_3.jpg",
+    "native": {
+      "w": 1038,
+      "h": 649
+    },
+    "ratio": 1.1111111111111112,
+    "alt": {
+      "en": "Sewing line with hanging system",
+      "zh": "吊挂缝制产线"
+    },
+    "widths": [
+      400,
+      700,
+      1000
+    ],
+    "sets": {
+      "avif": [
+        {
+          "w": 400,
+          "url": "/img/floor-line-400.avif"
+        },
+        {
+          "w": 700,
+          "url": "/img/floor-line-700.avif"
+        },
+        {
+          "w": 1000,
+          "url": "/img/floor-line-1000.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 400,
+          "url": "/img/floor-line-400.webp"
+        },
+        {
+          "w": 700,
+          "url": "/img/floor-line-700.webp"
+        },
+        {
+          "w": 1000,
+          "url": "/img/floor-line-1000.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 400,
+          "url": "/img/floor-line-400.jpg"
+        },
+        {
+          "w": 700,
+          "url": "/img/floor-line-700.jpg"
+        },
+        {
+          "w": 1000,
+          "url": "/img/floor-line-1000.jpg"
+        }
+      ]
+    },
+    "lqip": "data:image/webp;base64,UklGRrYAAABXRUJQVlA4IKoAAAAQBQCdASoUABIAPu1urlIppiQiqAgBMB2JYgC7IQdBeMfL01a0IDIodASRY4f6nNgAAM4woAqdcaI/1KlficTfvibPKyntgT0rIRpyPzFc2Vuulq9XjYqmJfpJ94QupcCk7fCJbi33W/OWM4GBivprbE+T8mnKRkOG+y3UDJpYHR56bhc0uz17vZhVzbu25bnEFjkLnK3FDSb1QDk7AHKcoxoXBfKTBEAAAA=="
+  },
+  "mark-wandoak": {
+    "id": "mark-wandoak",
+    "src": "wandoak_p02_1.jpg",
+    "source": "03-图片素材/小图与图标/wandoak_p02_1.jpg",
+    "native": {
+      "w": 640,
+      "h": 146
+    },
+    "ratio": 4.383561643835616,
+    "alt": {
+      "en": "WANDOAK",
+      "zh": "WANDOAK 豌豆客"
+    },
+    "tints": {
+      "brand": "/img/mark-wandoak-brand.png",
+      "light": "/img/mark-wandoak-light.png"
+    }
+  },
+  "mark-kna": {
+    "id": "mark-kna",
+    "src": "kna_p19_11.jpg",
+    "source": "03-图片素材/小图与图标/kna_p19_11.jpg",
+    "native": {
+      "w": 480,
+      "h": 141
+    },
+    "ratio": 3.404255319148936,
+    "alt": {
+      "en": "K&A — Ningbo K&A Technology",
+      "zh": "K&A 宁波凯丽安"
+    },
+    "tints": {
+      "parent": "/img/mark-kna-parent.png",
+      "light": "/img/mark-kna-light.png"
+    }
+  }
+}

@@ -1,0 +1,124 @@
+/* ============================================================
+   Layout primitives.
+   ALO runs three containers concurrently — reproduced exactly.
+     A  pad 45 → content 1350  (nav, 4-up grid, footer, stats, certs)
+     B  pad 16 → content 1408  (scenario row, tech scroller)
+     C  pad 70 → content 1300  (2-up editorial, full CTA, offer cards)
+   ============================================================ */
+
+.container-a,
+.container-b,
+.container-c {
+  width: 100%;
+  max-width: var(--layout-w);
+  margin-inline: auto;
+}
+.container-a { padding-inline: var(--pad-a); }
+.container-b { padding-inline: var(--pad-b); }
+.container-c { padding-inline: var(--pad-c); }
+
+/* Reserve at least a viewport for the route outlet. Without it a lazily
+   loaded page paints an empty <main>, the footer lands directly under the
+   nav, and it jumps a full screen once the chunk arrives. */
+main {
+  display: block;
+  min-height: calc(100svh - var(--nav-h));
+}
+
+/* ---------------- vertical rhythm ----------------
+   ALO: every .hp-section carries margin-bottom:70px, no exceptions.
+   Using margin-bottom (not gap) so full-bleed tinted bands still
+   participate in the same rhythm. */
+.section { margin-bottom: var(--section-gap); }
+.section:last-child { margin-bottom: 0; }
+
+/* A tinted band bleeds edge-to-edge; its inner container keeps the grid. */
+.band { background: var(--wash-band); }
+.band--ink { background: var(--ink); color: var(--paper); }
+
+/* ---------------- grids ----------------
+   Widths are emergent, not hard-coded: the gutter is fixed and the
+   track count is fixed, so 1fr resolves to the measured card width. */
+.grid { display: grid; }
+.grid-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--gutter-2); }
+.grid-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--gutter-4); }
+.grid-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--gutter-4); }
+.grid-4b { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--gutter-6); }
+.grid-5 { grid-template-columns: repeat(5, minmax(0, 1fr)); gap: var(--gutter-6); }
+.grid-6 { grid-template-columns: repeat(6, minmax(0, 1fr)); gap: var(--gutter-6); }
+
+@media (max-width: 1199.98px) {
+  .grid-5, .grid-6 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+@media (max-width: 991.98px) {
+  .grid-3, .grid-4, .grid-4b { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .grid-2 { grid-template-columns: minmax(0, 1fr); gap: var(--sp-2xl); }
+}
+@media (max-width: 575.98px) {
+  .grid-3, .grid-4, .grid-4b, .grid-5, .grid-6 {
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--sp-xl);
+  }
+}
+
+/* ---------------- horizontal scroller (ALO "Shop by Color") ---------------- */
+.hscroll {
+  display: flex;
+  gap: var(--gutter-6);
+  overflow-x: auto;
+  scroll-snap-type: x proximity;
+  scrollbar-width: none;
+  padding-bottom: var(--sp-xl);
+}
+.hscroll::-webkit-scrollbar { display: none; }
+.hscroll > * { flex: 0 0 272px; scroll-snap-align: start; }
+
+@media (max-width: 575.98px) {
+  .hscroll > * { flex: 0 0 78%; }
+}
+
+/* ---------------- section heading block ---------------- */
+.sec-head { margin-bottom: var(--sp-mlg); }
+.sec-head--center { text-align: center; }
+.sec-head__eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-msm);
+  color: var(--ink-60);
+  margin-bottom: var(--sp-msm);
+}
+.sec-head__eyebrow::before {
+  content: "";
+  width: 26px;
+  height: 2px;
+  background: var(--brand);
+  display: block;
+  flex: none;
+}
+.sec-head--center .sec-head__eyebrow { justify-content: center; }
+.sec-head__lead { color: var(--ink-60); margin-top: var(--sp-msm); max-width: 68ch; }
+.sec-head--center .sec-head__lead { margin-inline: auto; }
+
+/* ---------------- reveal-on-scroll ---------------- */
+.reveal {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity var(--dur-reveal) var(--ease-out),
+              transform var(--dur-reveal) var(--ease-out);
+  will-change: opacity, transform;
+}
+.reveal.is-in {
+  opacity: 1;
+  transform: none;
+  will-change: auto;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal { opacity: 1; transform: none; transition: none; }
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
